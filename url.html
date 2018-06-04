@@ -1,0 +1,438 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>URL Guide &mdash; LiveProxy 0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+    <link rel="canonical" href="https://liveproxy.github.io/url.html"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sideloading plugins" href="plugins.html" />
+    <link rel="prev" title="Installation" href="install.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> LiveProxy
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#source-code">Source code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install.html#dependencies">Dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#installing-without-root-permissions">Installing without root permissions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#kodi">Kodi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#enigma2">Enigma2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="install.html#opkg-files">opkg files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#download-files">download files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#id1">install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#after-install">after install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#service">service</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#known-issues">Known issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="install.html#systemtimewarning">SystemTimeWarning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">URL Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#tutorial">Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basic-url">Basic URL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#url-encoded">URL encoded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#quality">Quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#options">Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuration-file">Configuration file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#redirect">Redirect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#m3u">M3U</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Userbouquet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Sideloading plugins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#back-to-plugins">back-to plugins</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#install-kodi">Install Kodi</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#custom-plugins-kodi">custom plugins Kodi</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">LiveProxy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>URL Guide</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <span class="target" id="url"></span><div class="section" id="url-guide">
+<h1>URL Guide<a class="headerlink" href="#url-guide" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="tutorial">
+<h2>Tutorial<a class="headerlink" href="#tutorial" title="Permalink to this headline">¶</a></h2>
+<p>LiveProxy is a local Proxyserver between Streamlink and an URL.</p>
+<p>After installing and running LiveProxy you will be able to access Streamlink
+from any device in your local network via an URL.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">LiveProxy is not supposed to run on remote servers,
+it is only meant for a local network.</p>
+</div>
+<p>Now to get into actually using LiveProxy, let’s say you want to watch the
+stream located on <a class="reference external" href="https://www.youtube.com/user/france24">https://www.youtube.com/user/france24</a>, you start off by
+starting LiveProxy in your terminal.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> liveproxy
+<span class="go">[liveproxy-main][info] For LiveProxy support visit https://github.com/back-to/liveproxy</span>
+<span class="go">[liveproxy-main][info] Starting server: 127.0.0.1 on port 53422</span>
+</pre></div>
+</div>
+<p>The host or port can be changed with <cite>–host</cite> or <cite>–port</cite></p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> liveproxy --host <span class="m">0</span>.0.0.0 --port <span class="m">12345</span>
+<span class="go">[liveproxy-main][info] For LiveProxy support visit https://github.com/back-to/liveproxy</span>
+<span class="go">[liveproxy-main][info] Starting server: 0.0.0.0 on port 12345</span>
+</pre></div>
+</div>
+<p>Now that LiveProxy is running, you will have to create a valid proxy url.</p>
+<p>For this Examples <code class="docutils literal notranslate"><span class="pre">53422</span></code> is used as the <strong>default port</strong>.</p>
+</div>
+<div class="section" id="basic-url">
+<h2>Basic URL<a class="headerlink" href="#basic-url" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The basic url where Livecli will handle the playback looks like this.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https://www.youtube.com/user/france24
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="url-encoded">
+<h2>URL encoded<a class="headerlink" href="#url-encoded" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The above solution will work for the most websites, <br />
+but URLs with special characters such as <code class="docutils literal notranslate"><span class="pre">?</span></code> or <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> might not work.</p>
+<p>For this case every parameter should be URL encoded, <br />
+the website <a class="reference external" href="https://www.urlencoder.org/">urlencoder.org</a> can be used for this.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%3A%2F%2Fexample.com%2Fexample
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="quality">
+<h2>Quality<a class="headerlink" href="#quality" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>By default LiveProxy will open the best quality, <br />
+if you want a different quality you can use the parameter <code class="docutils literal notranslate"><span class="pre">q</span></code> <br />
+with every new parameter, you must add an <code class="docutils literal notranslate"><span class="pre">&amp;</span></code></p>
+<p>For this example we will have the parameter <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL&amp;q=720p
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="options">
+<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The <strong>/play/</strong> url can almoste handle every Streamlink command.</p>
+<p>Example <code class="docutils literal notranslate"><span class="pre">--http-header</span> <span class="pre">&quot;X-Forwarded-For=127.0.0.1&quot;</span></code> <br />
+will be <code class="docutils literal notranslate"><span class="pre">http-header=X-Forwarded-For%3D127.0.0.1</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL&amp;http-header=X-Forwarded-For%3D127.0.0.1
+</pre></div>
+</div>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Don’t use Usernames and Passwords in the URL, use the configuration file.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="configuration-file">
+<h2>Configuration file<a class="headerlink" href="#configuration-file" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>LiveProxy is fully compatible with the way Streamlink uses configuration files</p>
+<p>For more Details see <a class="reference external" href="https://streamlink.github.io/cli.html#configuration-file">Streamlink-configuration-file</a></p>
+<p>The following path can be used for Kodi</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">special</span><span class="p">:</span><span class="o">//</span><span class="n">profile</span><span class="o">/</span><span class="n">addon_data</span><span class="o">/</span><span class="n">service</span><span class="o">.</span><span class="n">liveproxy</span><span class="o">/</span><span class="n">config</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">strongly recommended for Usernames and Passwords</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="redirect">
+<h2>Redirect<a class="headerlink" href="#redirect" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>There is also a different version which only redirects the streaming url, <br />
+only the basic parameter will work for this such as <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
+<p>LiveProxy is only used to get the url, your Player will handle the playback.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/301/?url=URL
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="userbouquet">
+<h2>Userbouquet<a class="headerlink" href="#userbouquet" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">Because this is used for the Userbouquet <strong>:</strong> is not allowed in the URL, <br />
+you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
+</div>
+<p><strong>Before</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL
+</pre></div>
+</div>
+<p><strong>After</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http%3a//127.0.0.1%3a53473/play/?url=URL
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>URL<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Here are some finished working examples.</p>
+<p><strong>Euronews</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+</pre></div>
+</div>
+<p><strong>France24</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="m3u">
+<h3>M3U<a class="headerlink" href="#m3u" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p><strong>Euronews</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;EURONEWS&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,Euronews
+http://127.0.0.1:53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+</pre></div>
+</div>
+<p><strong>France24</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;France24&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,France24
+http://127.0.0.1:53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Userbouquet<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>If you use the webinterface, you can just copy your finished URL there. <br />
+But if you use a text editor, you will have to create a valid Userbouquet.</p>
+<p>I will use the service id <strong>4097</strong> IPTV for my examples.</p>
+<p>You can use a different service id such as</p>
+<ul class="simple">
+<li>service <strong>5001</strong> gstplayer (gstreamer)</li>
+<li>service <strong>5002</strong> exteplayer3 (ffmpeg)</li>
+</ul>
+<p>You might need to install a serviceapp for <strong>5001</strong> and <strong>5002</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">opkg</span> <span class="n">install</span> <span class="n">enigma2</span><span class="o">-</span><span class="n">plugin</span><span class="o">-</span><span class="n">systemplugins</span><span class="o">-</span><span class="n">serviceapp</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">But I only tested it with <strong>4097</strong></p>
+</div>
+<p><strong>Euronews</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive:Euronews</span>
+<span class="c1">#DESCRIPTION Euronews</span>
+</pre></div>
+</div>
+<p><strong>France24</strong></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24:France24</span>
+<span class="c1">#DESCRIPTION France24</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation &mdash; LiveProxy 0.0.0 documentation</title>
+  
+
+  
+  
+  
+  
+    <link rel="canonical" href="https://liveproxy.github.io/install.html"/>
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="URL Guide" href="url.html" />
+    <link rel="prev" title="Welcome to LiveProxy’s documentation!" href="index.html" /> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> LiveProxy
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.0.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#source-code">Source code</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-without-root-permissions">Installing without root permissions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#kodi">Kodi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#enigma2">Enigma2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#opkg-files">opkg files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#download-files">download files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#after-install">after install</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#service">service</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#known-issues">Known issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#systemtimewarning">SystemTimeWarning</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="url.html">URL Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="url.html#tutorial">Tutorial</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#basic-url">Basic URL</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#url-encoded">URL encoded</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#quality">Quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#options">Options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#configuration-file">Configuration file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#redirect">Redirect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#userbouquet">Userbouquet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html#examples">Examples</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="url.html#id1">URL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="url.html#m3u">M3U</a></li>
+<li class="toctree-l3"><a class="reference internal" href="url.html#id2">Userbouquet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="plugins.html">Sideloading plugins</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#back-to-plugins">back-to plugins</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="plugins.html#install-kodi">Install Kodi</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="plugins.html#custom-plugins-kodi">custom plugins Kodi</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">LiveProxy</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <span class="target" id="install"></span><div class="section" id="installation">
+<h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="source-code">
+<h2>Source code<a class="headerlink" href="#source-code" title="Permalink to this headline">¶</a></h2>
+<p>There are a few different methods to do this,
+<a class="reference external" href="https://pip.readthedocs.io/en/latest/installing/">pip</a> the Python package
+manager, or by checking out the latest code with
+<a class="reference external" href="https://git-scm.com/downloads">Git</a>.</p>
+<p>The commands listed here will also upgrade any existing version of LiveProxy.</p>
+<table border="1" class="table-custom-layout docutils">
+<colgroup>
+<col width="36%" />
+<col width="64%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Version</th>
+<th class="head">Installing</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="https://pypi.org/project/liveproxy/">Latest release (pip)</a></td>
+<td><div class="first last highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> pip install -U streamlink
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://github.com/back-to/liveproxy">Development version (pip)</a></td>
+<td><div class="first last highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">#</span> pip install -U git+https://github.com/back-to/liveproxy.git
+</pre></div>
+</div>
+</td>
+</tr>
+<tr class="row-even"><td><a class="reference external" href="https://github.com/back-to/liveproxy">Development version (git)</a></td>
+<td><div class="first last highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp">$</span> git clone git://github.com/back-to/liveproxy.git
+<span class="gp">$</span> <span class="nb">cd</span> liveproxy
+<span class="gp">#</span> python setup.py install
+</pre></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="dependencies">
+<h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
+<p>To install LiveProxy from source you will need these dependencies.</p>
+<table border="1" class="table-custom-layout docutils">
+<colgroup>
+<col width="46%" />
+<col width="54%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Name</th>
+<th class="head">Notes</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><a class="reference external" href="https://www.python.org/">Python</a></td>
+<td>At least version <strong>2.7</strong> or <strong>3.4</strong>.</td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://pypi.org/project/setuptools/">python-setuptools</a></td>
+<td>&#160;</td>
+</tr>
+<tr class="row-even"><td colspan="2"><strong>Automatically installed by the setup script</strong></td>
+</tr>
+<tr class="row-odd"><td><a class="reference external" href="https://pypi.org/project/streamlink/">python-streamlink</a></td>
+<td>At least version <strong>0.12.1</strong>.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="installing-without-root-permissions">
+<h3>Installing without root permissions<a class="headerlink" href="#installing-without-root-permissions" title="Permalink to this headline">¶</a></h3>
+<p>If you do not wish to install Streamlink globally on your system it’s
+recommended to use <a class="reference external" href="https://docs.python.org/3/library/venv.html">venv</a> to create a user owned Python environment instead.</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">Creating an environment</span>
+<span class="gp">$</span> python3 -m venv ~/myenv
+
+<span class="go">Activating the environment</span>
+<span class="gp">$</span> <span class="nb">source</span> ~/myenv/bin/activate
+
+<span class="go">Installing streamlink into the environment</span>
+<span class="gp">(myenv)$</span> pip install liveproxy
+
+<span class="go">Using streamlink in the environment</span>
+<span class="gp">(myenv)$</span> liveproxy ...
+
+<span class="go">Deactivating the environment</span>
+<span class="gp">(myenv)$</span> deactivate
+
+<span class="go">Using streamlink without activating the environment</span>
+<span class="gp">$</span> ~/myenv/bin/liveproxy ...
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="kodi">
+<h2>Kodi<a class="headerlink" href="#kodi" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>LiveProxy can be used as a <strong>service proxy</strong> for Kodi <strong>IPTV Simple PVR</strong></p>
+<p>Download <a class="reference external" href="https://github.com/back-to/repo/raw/master/repository.back-to/repository.back-to-5.0.0.zip">repository.back-to</a></p>
+<p>Install <em>service.liveproxy</em></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">A Kodi restart is recommended.</p>
+</div>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p><strong>script.module.pycryptodome</strong> is required for LiveProxy, <br />
+but it’s only prepacked on <strong>Kodi Leia</strong>.</p>
+<p class="last">If you want to use this Addon on <strong>Krypton</strong>, <br />
+you will have to install <strong>pycryptodome</strong> on your system <br />
+and create a <em>dummy</em> <strong>script.module.pycryptodome</strong> Addon.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="enigma2">
+<h2>Enigma2<a class="headerlink" href="#enigma2" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>The E2 version will run the command <code class="docutils literal notranslate"><span class="pre">liveproxy</span> <span class="pre">--host</span> <span class="pre">0.0.0.0</span> <span class="pre">-l</span> <span class="pre">debug</span></code> <br />
+which can be used for local testing without the receiver.</p>
+<p>The source and build files can be found at <a class="reference external" href="https://github.com/livecli/ipk">https://github.com/livecli/ipk</a></p>
+<div class="admonition attention">
+<p class="first admonition-title">Attention</p>
+<p class="last">This is only tested with a <strong>Vu+ Duo2</strong> <br />
+which is an E2 receiver with <em>init.d</em> and <em>python2.7</em></p>
+</div>
+</div></blockquote>
+<div class="section" id="opkg-files">
+<h3>opkg files<a class="headerlink" href="#opkg-files" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>At the begin you will install the packages from <code class="docutils literal notranslate"><span class="pre">opkg</span></code></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>opkg install python-futures
+opkg install python-singledispatch
+opkg install python-six
+opkg install python-requests
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>python-pycrypto</strong> was preinstalled on my test receiver,
+you might need to install it on your.
+<br /> <br />
+If this is not posible you can try
+<strong>python-pycryptodome</strong> or <strong>python-pycryptodomex</strong></p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="download-files">
+<h3>download files<a class="headerlink" href="#download-files" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>You will have to download all required files, <br />
+for this example all the files will be saved in <code class="docutils literal notranslate"><span class="pre">/tmp</span></code></p>
+<p>The best way is to use the terminal, <br />
+from the terminal you can use <code class="docutils literal notranslate"><span class="pre">wget</span> <span class="pre">URL</span></code> to download the files <br />
+and <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/tmp</span></code> to get into the example direction.</p>
+<p>All these files are required.</p>
+<ul class="simple">
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-backports.shutil-get-terminal-size_1.0.0_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-backports.shutil-which_3.5.1_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso3166_0.8_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso639_0.4.5_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-socks_1.6.8_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-websocket_0.47.0_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-streamlink_0.12.1.2_all.ipk</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id1">
+<h3>install<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>For the install after the download,
+you will have to use <code class="docutils literal notranslate"><span class="pre">opkg</span> <span class="pre">install</span> <span class="pre">PATH_IPK</span></code></p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Install python-streamlink_0.12.1.2_all.ipk as the last package</p>
+</div>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">You can use the <strong>TAB</strong> key, to autocomplete names <br /> <br />
+<em>opkg install /tmp/py</em> <br />
+<strong>TAB</strong> will be <em>opkg install /tmp/python-</em> <br /> <br />
+<em>opkg install /tmp/python-so</em> <br />
+<strong>TAB</strong> will be <em>opkg install /tmp/python-socks_1.6.8_all.ipk</em></p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="after-install">
+<h3>after install<a class="headerlink" href="#after-install" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>You can test your Streamlink installation in your terminal.</p>
+<p>Type</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">streamlink</span> <span class="o">-</span><span class="n">l</span> <span class="n">debug</span>
+</pre></div>
+</div>
+<p>it should output some information about Streamlink and your system.</p>
+</div></blockquote>
+</div>
+<div class="section" id="service">
+<h3>service<a class="headerlink" href="#service" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Now that Streamlink works, you will have to install the service script.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This will only work for receiver with <em>init.d</em></p>
+</div>
+<p><strong>download</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/enigma2-liveproxy_7.0.0_all.ipk</li>
+</ul>
+</div></blockquote>
+<p><strong>install</strong></p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">opkg</span> <span class="n">install</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">enigma2</span><span class="o">-</span><span class="n">liveproxy_7</span><span class="o">.</span><span class="mf">0.0</span><span class="n">_all</span><span class="o">.</span><span class="n">ipk</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p><strong>start the server</strong></p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">liveproxy</span> <span class="n">defaults</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="known-issues">
+<h3>Known issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="systemtimewarning">
+<h3>SystemTimeWarning<a class="headerlink" href="#systemtimewarning" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>This issue comes up if your receiver starts without a satellite signal.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python2</span><span class="o">.</span><span class="mi">7</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">requests</span><span class="o">/</span><span class="n">packages</span><span class="o">/</span><span class="n">urllib3</span><span class="o">/</span><span class="n">connection</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">303</span><span class="p">:</span>
+<span class="n">SystemTimeWarning</span><span class="p">:</span> <span class="n">System</span> <span class="n">time</span> <span class="ow">is</span> <span class="n">way</span> <span class="n">off</span> <span class="p">(</span><span class="n">before</span> <span class="mi">2014</span><span class="o">-</span><span class="mi">01</span><span class="o">-</span><span class="mi">01</span><span class="p">)</span><span class="o">.</span>
+<span class="n">This</span> <span class="n">will</span> <span class="n">probably</span> <span class="n">lead</span> <span class="n">to</span> <span class="n">SSL</span> <span class="n">verification</span> <span class="n">errors</span> <span class="n">SystemTimeWarning</span>
+</pre></div>
+</div>
+<p>To solve this, you need to install <strong>Network Time Protocol (NTP)</strong> service</p>
+<p>After the install you might need to run</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">ntpupdate</span><span class="o">.</span><span class="n">sh</span> <span class="n">defaults</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.0.0',
+            LANGUAGE:'None',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
