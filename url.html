@@ -242,7 +242,7 @@ starting LiveProxy in your terminal.</p>
 but URLs with special characters such as <code class="docutils literal notranslate"><span class="pre">?</span></code> or <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> might not work.</p>
 <p>For this case every parameter should be URL encoded, <br />
 the website <a class="reference external" href="https://www.urlencoder.org/">urlencoder.org</a> can be used for this.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%3A%2F%2Fexample.com%2Fexample
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%3A%2F%2Fexample.com%2Fexample
 </pre></div>
 </div>
 </div></blockquote>
@@ -254,7 +254,7 @@ the website <a class="reference external" href="https://www.urlencoder.org/">url
 if you want a different quality you can use the parameter <code class="docutils literal notranslate"><span class="pre">q</span></code> <br />
 with every new parameter, you must add an <code class="docutils literal notranslate"><span class="pre">&amp;</span></code></p>
 <p>For this example we will have the parameter <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL&amp;q=720p
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL&amp;q=720p
 </pre></div>
 </div>
 </div></blockquote>
@@ -265,7 +265,7 @@ with every new parameter, you must add an <code class="docutils literal notransl
 <div><p>The <strong>/play/</strong> url can almoste handle every Streamlink command.</p>
 <p>Example <code class="docutils literal notranslate"><span class="pre">--http-header</span> <span class="pre">&quot;X-Forwarded-For=127.0.0.1&quot;</span></code> <br />
 will be <code class="docutils literal notranslate"><span class="pre">http-header=X-Forwarded-For%3D127.0.0.1</span></code></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL&amp;http-header=X-Forwarded-For%3D127.0.0.1
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL&amp;http-header=X-Forwarded-For%3D127.0.0.1
 </pre></div>
 </div>
 <div class="admonition attention">
@@ -295,7 +295,7 @@ will be <code class="docutils literal notranslate"><span class="pre">http-header
 <div><p>There is also a different version which only redirects the streaming url, <br />
 only the basic parameter will work for this such as <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
 <p>LiveProxy is only used to get the url, your Player will handle the playback.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/301/?url=URL
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/301/?url=URL
 </pre></div>
 </div>
 </div></blockquote>
@@ -309,11 +309,11 @@ only the basic parameter will work for this such as <code class="docutils litera
 you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
 </div>
 <p><strong>Before</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=URL
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL
 </pre></div>
 </div>
 <p><strong>After</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http%3a//127.0.0.1%3a53473/play/?url=URL
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http%3a//127.0.0.1%3a53422/play/?url=URL
 </pre></div>
 </div>
 </div></blockquote>
@@ -325,11 +325,11 @@ you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
 <blockquote>
 <div><p>Here are some finished working examples.</p>
 <p><strong>Euronews</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
 </pre></div>
 </div>
 </div></blockquote>
@@ -339,12 +339,12 @@ you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
 <blockquote>
 <div><p><strong>Euronews</strong></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;EURONEWS&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,Euronews
-http://127.0.0.1:53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;France24&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,France24
-http://127.0.0.1:53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+http://127.0.0.1:53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
 </pre></div>
 </div>
 </div></blockquote>
@@ -369,12 +369,12 @@ But if you use a text editor, you will have to create a valid Userbouquet.</p>
 <p class="last">But I only tested it with <strong>4097</strong></p>
 </div>
 <p><strong>Euronews</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53473/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive:Euronews</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive:Euronews</span>
 <span class="c1">#DESCRIPTION Euronews</span>
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53473/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24:France24</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24:France24</span>
 <span class="c1">#DESCRIPTION France24</span>
 </pre></div>
 </div>
