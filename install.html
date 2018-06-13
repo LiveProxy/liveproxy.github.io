@@ -358,9 +358,11 @@ and <code class="docutils literal notranslate"><span class="pre">cd</span> <span
 <li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-backports.shutil-which_3.5.1_all.ipk</li>
 <li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso3166_0.8_all.ipk</li>
 <li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso639_0.4.5_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-isodate_0.6.0_all.ipk</li>
 <li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-socks_1.6.8_all.ipk</li>
 <li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-websocket_0.47.0_all.ipk</li>
-<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-streamlink_0.12.1.2_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-streamlink_0.13.0.18_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/python-liveproxy_0.0.1_all.ipk</li>
 </ul>
 </div></blockquote>
 </div>
@@ -371,7 +373,7 @@ and <code class="docutils literal notranslate"><span class="pre">cd</span> <span
 you will have to use <code class="docutils literal notranslate"><span class="pre">opkg</span> <span class="pre">install</span> <span class="pre">PATH_IPK</span></code></p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Install python-streamlink_0.12.1.2_all.ipk as the last package</p>
+<p class="last">Install python-streamlink and python-liveproxy as the last packages</p>
 </div>
 <div class="admonition hint">
 <p class="first admonition-title">Hint</p>
@@ -405,18 +407,18 @@ you will have to use <code class="docutils literal notranslate"><span class="pre
 <p><strong>download</strong></p>
 <blockquote>
 <div><ul class="simple">
-<li>https://raw.githubusercontent.com/back-to/ipk/master/build/enigma2-liveproxy_7.0.0_all.ipk</li>
+<li>https://raw.githubusercontent.com/back-to/ipk/master/build/enigma2-liveproxy-server_1.0.0_all.ipk</li>
 </ul>
 </div></blockquote>
 <p><strong>install</strong></p>
 <blockquote>
-<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">opkg</span> <span class="n">install</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">enigma2</span><span class="o">-</span><span class="n">liveproxy_7</span><span class="o">.</span><span class="mf">0.0</span><span class="n">_all</span><span class="o">.</span><span class="n">ipk</span>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">opkg</span> <span class="n">install</span> <span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">enigma2</span><span class="o">-</span><span class="n">liveproxy</span><span class="o">-</span><span class="n">server_1</span><span class="o">.</span><span class="mf">0.0</span><span class="n">_all</span><span class="o">.</span><span class="n">ipk</span>
 </pre></div>
 </div>
 </div></blockquote>
 <p><strong>start the server</strong></p>
 <blockquote>
-<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">liveproxy</span> <span class="n">defaults</span>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">liveproxy</span><span class="o">-</span><span class="n">server</span> <span class="n">defaults</span>
 </pre></div>
 </div>
 </div></blockquote>
