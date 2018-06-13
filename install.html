@@ -88,7 +88,6 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Installation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#source-code">Source code</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#dependencies">Dependencies</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#installing-without-root-permissions">Installing without root permissions</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#kodi">Kodi</a></li>
@@ -266,30 +265,6 @@ manager, or by checking out the latest code with
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="installing-without-root-permissions">
-<h3>Installing without root permissions<a class="headerlink" href="#installing-without-root-permissions" title="Permalink to this headline">¶</a></h3>
-<p>If you do not wish to install Streamlink globally on your system it’s
-recommended to use <a class="reference external" href="https://docs.python.org/3/library/venv.html">venv</a> to create a user owned Python environment instead.</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">Creating an environment</span>
-<span class="gp">$</span> python3 -m venv ~/myenv
-
-<span class="go">Activating the environment</span>
-<span class="gp">$</span> <span class="nb">source</span> ~/myenv/bin/activate
-
-<span class="go">Installing streamlink into the environment</span>
-<span class="gp">(myenv)$</span> pip install liveproxy
-
-<span class="go">Using streamlink in the environment</span>
-<span class="gp">(myenv)$</span> liveproxy ...
-
-<span class="go">Deactivating the environment</span>
-<span class="gp">(myenv)$</span> deactivate
-
-<span class="go">Using streamlink without activating the environment</span>
-<span class="gp">$</span> ~/myenv/bin/liveproxy ...
-</pre></div>
-</div>
 </div>
 </div>
 <div class="section" id="kodi">
