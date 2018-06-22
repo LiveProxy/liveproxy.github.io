@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:-1 group-title="Türk",FOX | fox.com.tr
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.fox.com.tr%252Fcanli-yayin
+#EXTINF:-1 group-title="Türk",KANAL7 | kanal7.com
+http://127.0.0.1:53422/play/?url=http%253A%252F%252Fwww.kanal7.com%252Fcanli-izle
+#EXTINF:-1 group-title="Türk",TLC | tlctv.com.tr
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.tlctv.com.tr%252Fcanli-izle
+#EXTINF:-1 group-title="Türk",TV8 | tv8.com.tr
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.tv8.com.tr%252Fcanli-yayin

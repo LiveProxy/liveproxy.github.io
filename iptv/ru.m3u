@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 group-title="Русские;Новостные",Euronews RU | euronews.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fru.euronews.com%252Flive
+#EXTINF:-1 group-title="Русские;Спортивные",Матч! | rutube.ru
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Frutube.ru%252Fvideo%252F11bbbec75a2ceb8cf446ad16813c6eec%252F
+#EXTINF:-1 group-title="Русские",Первый канал HD | 1tv.ru
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.1tv.ru%252Flive

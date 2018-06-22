@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 group-title="Vietnamese",THVL 1 HD | thvli.vn
+http://127.0.0.1:53422/play/?url=http%253A%252F%252Fthvli.vn%252Flive%252Fthvl1-hd%252Faab94d1f-44e1-4992-8633-6d46da08db42
+#EXTINF:-1 group-title="Vietnamese",THVL 2 HD | thvli.vn
+http://127.0.0.1:53422/play/?url=http%253A%252F%252Fthvli.vn%252Flive%252Fthvl2-hd%252Fbc60bddb-99ac-416e-be26-eb4d0852f5cc

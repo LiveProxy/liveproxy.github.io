@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTINF:-1 group-title="Deutsch;Vollprogramm",3sat HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252F3sat%252F3sat-live-beitrag-100.html
+#EXTINF:-1 group-title="Deutsch",Arte HD | ardmediathek.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252FARTE-deutsch%252Flive%253Fkanal%253D5880
+#EXTINF:-1 group-title="Deutsch",Arte HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Farte%252Farte-livestream-100.html
+#EXTINF:-1 group-title="Deutsch;Nachrichten",DW Deutsch | youtube.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fuser%252Fdeutschewelle
+#EXTINF:-1 group-title="Deutsch",Das Erste HD | ardmediathek.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252FDas-Erste%252Flive%253Fkanal%253D208
+#EXTINF:-1 group-title="Deutsch",Das Erste | akamaized.net
+https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
+#EXTINF:-1 group-title="Deutsch",Das Erste | daserste.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.daserste.de%252Flive%252Findex.html
+#EXTINF:-1 group-title="Deutsch;Nachrichten",Euronews DE | euronews.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fde.euronews.com%252Flive
+#EXTINF:-1 group-title="Deutsch;Kinder",KiKA HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fkika%252Fkika-live-beitrag-100.html
+#EXTINF:-1 group-title="Deutsch;Nachrichten",PHOENIX HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fphoenix%252Fphoenix-live-beitrag-100.html
+#EXTINF:-1 group-title="Deutsch;Sport",Sky Sport News HD | akamaihd.net
+https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
+#EXTINF:-1 group-title="Deutsch;Nachrichten",Tagesschau24 | ardmediathek.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252Ftagesschau24%252Flive%253Fkanal%253D5878
+#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDF HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fzdf%252Fzdf-live-beitrag-100.html
+#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDFinfo HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fdokumentation%252Fzdfinfo-doku%252Fzdfinfo-live-beitrag-100.html
+#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDFneo HD | zdf.de
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fzdfneo%252Fzdfneo-live-beitrag-100.html

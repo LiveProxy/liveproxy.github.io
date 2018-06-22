@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 group-title="English;News",DW English | youtube.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCknLrEdhRCp1aegoMqRaCZg
+#EXTINF:-1 group-title="English;News",Euronews EN | euronews.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+#EXTINF:-1 group-title="English;News",SkyNews | youtube.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCoMdktPbSTixAyNGwb-UYkQ
