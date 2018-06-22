@@ -1,9 +1,25 @@
 #EXTM3U
+#EXTINF:-1 group-title="Türk",CNN TÜRK | cnnturk.com
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.cnnturk.com%252Fcanli-yayin
 #EXTINF:-1 group-title="Türk",FOX | fox.com.tr
 http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.fox.com.tr%252Fcanli-yayin
+#EXTINF:-1 group-title="Türk",KANAL D | kanald.com.tr
+http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.kanald.com.tr%252Fcanli-yayin
 #EXTINF:-1 group-title="Türk",KANAL7 | kanal7.com
 http://127.0.0.1:53422/play/?url=http%253A%252F%252Fwww.kanal7.com%252Fcanli-izle
 #EXTINF:-1 group-title="Türk",TLC | tlctv.com.tr
 http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.tlctv.com.tr%252Fcanli-izle
+#EXTINF:-1 group-title="Türk",TRT 1 HD | akamaihd.net
+https://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8
+#EXTINF:-1 group-title="Türk",TRT BELGESEL HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/master.m3u8
+#EXTINF:-1 group-title="Türk",TRT HABER HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8
+#EXTINF:-1 group-title="Türk",TRT MÜZİK HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
+#EXTINF:-1 group-title="Türk",TRT SPOR HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
+#EXTINF:-1 group-title="Türk",TRT TÜRK | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8
 #EXTINF:-1 group-title="Türk",TV8 | tv8.com.tr
 http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.tv8.com.tr%252Fcanli-yayin
