@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 group-title="TR",TRT 1 HD | akamaihd.net
+https://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8
+#EXTINF:-1 group-title="TR",TRT BELGESEL HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/master.m3u8
+#EXTINF:-1 group-title="TR",TRT HABER HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8
+#EXTINF:-1 group-title="TR",TRT MÜZİK HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
+#EXTINF:-1 group-title="TR",TRT SPOR HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
+#EXTINF:-1 group-title="TR",TRT TÜRK HD | akamaihd.net
+http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8

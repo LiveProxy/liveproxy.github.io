@@ -1,27 +1,39 @@
 #EXTM3U
-#EXTINF:-1 group-title="Русские;Новостные",Euronews RU | euronews.com
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fru.euronews.com%252Flive
-#EXTINF:-1 group-title="Русские;Спортивные",Матч! | rutube.ru
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Frutube.ru%252Fvideo%252F11bbbec75a2ceb8cf446ad16813c6eec%252F
-#EXTINF:-1 group-title="Русские",НТВ | youtube.com
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DG2eFjCnFgUE
-#EXTINF:-1 group-title="Русские",Первый канал HD | 1tv.ru
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.1tv.ru%252Flive
-#EXTINF:-1 group-title="Русские",РЕН ТВ HD | ren.tv
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fren.tv%252Flive
-#EXTINF:-1 group-title="Русские",Россия 1 HD | rtr-vesti.ru
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 group-title="Русские",Россия 1 HD | russia.tv
-http://127.0.0.1:53422/play/?url=http%253A%252F%252Flive.russia.tv%252Findex%252Findex%252Fchannel_id%252F1
-#EXTINF:-1 group-title="Русские;Новостные",Россия 24 | rtr-vesti.ru
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/chunklist_b800000.m3u8
-#EXTINF:-1 group-title="Русские;Новостные",Россия 24 | russia.tv
-http://127.0.0.1:53422/play/?url=http%253A%252F%252Flive.russia.tv%252Findex%252Findex%252Fchannel_id%252F3
-#EXTINF:-1 group-title="Русские",Россия Культура | rtr-vesti.ru
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:russiak.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 group-title="Русские",Россия РТР | rtr-vesti.ru
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 group-title="Русские",Россия РТР | russia.tv
-http://127.0.0.1:53422/play/?url=http%253A%252F%252Flive.russia.tv%252Findex%252Findex%252Fchannel_id%252F82
-#EXTINF:-1 group-title="Русские",Страна | rtr-vesti.ru
+#EXTINF:-1 group-title="RU",Euronews HD | euronews.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fru.euronews.com%2Flive
+#EXTINF:-1 group-title="RU",Домашний | domashniy.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fdomashniy.ru%2Fonline%2F
+#EXTINF:-1 group-title="RU",Матч HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F11bbbec75a2ceb8cf446ad16813c6eec%2F
+#EXTINF:-1 group-title="RU",НТВ HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F42a58f895935bbf495089a2e1fe15e46%2F
+#EXTINF:-1 group-title="RU",НТВ HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCsA_vkmuyIRlYYXeJueyIJQ
+#EXTINF:-1 group-title="RU",Первый канал HD | 1tv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.1tv.ru%2Flive
+#EXTINF:-1 group-title="RU",Пятый канал | 5-tv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.5-tv.ru%2Flive%2F
+#EXTINF:-1 group-title="RU",РЕН ТВ HD | ren.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fren.tv%2Flive
+#EXTINF:-1 group-title="RU",Россия 24 | rtr-vesti.ru
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/master.m3u8
+#EXTINF:-1 group-title="RU",Россия Культура | rtr-vesti.ru
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
+#EXTINF:-1 group-title="RU",Россия РТР | rtr-vesti.ru
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
+#EXTINF:-1 group-title="RU",СТС | ctc.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fctc.ru%2Fonline%2F
+#EXTINF:-1 group-title="RU",СТС Love | ctclove.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fctclove.ru%2Fonline%2F
+#EXTINF:-1 group-title="RU",СУПЕР HD | friday.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Ffriday.ru%2Fonline
+#EXTINF:-1 group-title="RU",СУПЕР HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2Fdfbae35e461b25d827319d93ed5c1d76%2F
+#EXTINF:-1 group-title="RU",Страна | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:strana.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 group-title="RU",ТНТ HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F546602986e6a424d74d594876ddb3f04%2F
+#EXTINF:-1 group-title="RU",ТНТ4 HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2Fc801a7087e29a097192d74c270fbc6c1
+#EXTINF:-1 group-title="RU",Че | chetv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fchetv.ru%2Fonline%2F

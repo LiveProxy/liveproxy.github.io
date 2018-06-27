@@ -1,11 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="Français",Arte HD | ardmediathek.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252FARTE-franz%2525C3%2525B6sisch%252Flive%253Fkanal%253D36104240
-#EXTINF:-1 group-title="Français",Arte HD | arte.tv
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.arte.tv%252Ffr%252Fdirect%252F
-#EXTINF:-1 group-title="Français",CNEWS | cnews.fr
-http://127.0.0.1:53422/play/?url=http%253A%252F%252Fwww.cnews.fr%252Fle-direct
-#EXTINF:-1 group-title="Français",FRANCE 24 HD | youtube.com
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fuser%252Ffrance24
-#EXTINF:-1 group-title="Français",IDF1 | idf1.fr
-http://127.0.0.1:53422/play/?url=http%253A%252F%252Fwww.idf1.fr%252Flive
+#EXTINF:-1 group-title="FR",Arte HD | arte.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.arte.tv%2Ffr%2Fdirect%2F
+#EXTINF:-1 group-title="FR",CNEWS HD | cnews.fr
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.cnews.fr%2Fle-direct
+#EXTINF:-1 group-title="FR",FRANCE 24 HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+#EXTINF:-1 group-title="FR",IDF1 | idf1.fr
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.idf1.fr%2Flive

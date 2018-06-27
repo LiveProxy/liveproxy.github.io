@@ -1,31 +1,113 @@
 #EXTM3U
-#EXTINF:-1 group-title="Deutsch;Vollprogramm",3sat HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252F3sat%252F3sat-live-beitrag-100.html
-#EXTINF:-1 group-title="Deutsch",Arte HD | ardmediathek.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252FARTE-deutsch%252Flive%253Fkanal%253D5880
-#EXTINF:-1 group-title="Deutsch",Arte HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Farte%252Farte-livestream-100.html
-#EXTINF:-1 group-title="Deutsch;Nachrichten",DW Deutsch | youtube.com
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.youtube.com%252Fuser%252Fdeutschewelle
-#EXTINF:-1 group-title="Deutsch",Das Erste HD | ardmediathek.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252FDas-Erste%252Flive%253Fkanal%253D208
-#EXTINF:-1 group-title="Deutsch",Das Erste | akamaized.net
-https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
-#EXTINF:-1 group-title="Deutsch",Das Erste | daserste.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.daserste.de%252Flive%252Findex.html
-#EXTINF:-1 group-title="Deutsch;Nachrichten",Euronews DE | euronews.com
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fde.euronews.com%252Flive
-#EXTINF:-1 group-title="Deutsch;Kinder",KiKA HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fkika%252Fkika-live-beitrag-100.html
-#EXTINF:-1 group-title="Deutsch;Nachrichten",PHOENIX HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fphoenix%252Fphoenix-live-beitrag-100.html
-#EXTINF:-1 group-title="Deutsch;Sport",Sky Sport News HD | akamaihd.net
+#EXTINF:-1 group-title="DE;Bildung",ARD-alpha HD | akamaihd.net
+https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE;Bildung",ARD-alpha HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FARD-alpha%2Flive%3Fkanal%3D5868
+#EXTINF:-1 group-title="DE",BR Fernsehen Nord HD | akamaihd.net
+https://brlive-lh.akamaihd.net/i/bfsnord_germany@119898/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",BR Fernsehen Nord HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FBR-Fernsehen-Nord%2Flive%3Fkanal%3D21537244
+#EXTINF:-1 group-title="DE",BR Fernsehen Süd HD | akamaihd.net
+https://brlive-lh.akamaihd.net/i/bfssued_germany@119890/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",BR Fernsehen Süd HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FBR-Fernsehen-S%25C3%25BCd%2Flive%3Fkanal%3D21518950
+#EXTINF:-1 group-title="DE;Musik",DELUXE MUSIC | mivitec.net
+http://streaming-02.mivitec.net/live/smil:test.smil/playlist.m3u8
+#EXTINF:-1 group-title="DE",Deutsche Welle HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Fdeutschewelle
+#EXTINF:-1 group-title="DE",Deutsche Welle | akamaihd.net
+https://dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/master.m3u8
+#EXTINF:-1 group-title="DE;Nachrichten",Euronews HD | euronews.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fde.euronews.com%2Flive
+#EXTINF:-1 group-title="DE",HR Fernsehen HD | akamaihd.net
+http://hrlive1-lh.akamaihd.net/i/hr_fernsehen@75910/index_3584_av-p.m3u8
+#EXTINF:-1 group-title="DE",HR Fernsehen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Fhr-fernsehen%2Flive%3Fkanal%3D5884
+#EXTINF:-1 group-title="DE",MDR Sachsen HD | akamaihd.net
+http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",MDR Sachsen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-SACHSEN%2Flive%3Fkanal%3D1386804
+#EXTINF:-1 group-title="DE",MDR Sachsen-Anhalt HD | akamaihd.net
+http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",MDR Sachsen-Anhalt HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-SACHSEN-ANHALT%2Flive%3Fkanal%3D1386898
+#EXTINF:-1 group-title="DE",MDR Thüringen HD | akamaihd.net
+http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",MDR Thüringen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-TH%25C3%259CRINGEN%2Flive%3Fkanal%3D1386988
+#EXTINF:-1 group-title="DE",MTV Germany HD | akamaihd.net
+http://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
+#EXTINF:-1 group-title="DE;Nachrichten",N-TV | akamaihd.net
+https://ntvlivehls-lh.akamaihd.net/i/ntvlivehls_1@409250/master.m3u8
+#EXTINF:-1 group-title="DE;Nachrichten",N-TV | n-tv.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.n-tv.de%2Fmediathek%2Flivestream%2F
+#EXTINF:-1 group-title="DE",NDR Hamburg HD | akamaihd.net
+https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",NDR Hamburg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Hamburg%2Flive%3Fkanal%3D21518348
+#EXTINF:-1 group-title="DE",NDR Mecklenburg-Vorpommern HD | akamaihd.net
+https://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",NDR Mecklenburg-Vorpommern HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Mecklenburg-Vorpommern%2Flive%3Fkanal%3D21518350
+#EXTINF:-1 group-title="DE",NDR Niedersachsen HD | akamaihd.net
+https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",NDR Niedersachsen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Niedersachsen%2Flive%3Fkanal%3D21518352
+#EXTINF:-1 group-title="DE",NDR Schleswig-Holstein HD | akamaihd.net
+https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",NDR Schleswig-Holstein HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Schleswig-Holstein%2Flive%3Fkanal%3D21518354
+#EXTINF:-1 group-title="DE;Kinder",Nickelodeon HD | akamaihd.net
+http://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8
+#EXTINF:-1 group-title="DE",ONE HD | akamaihd.net
+http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_7_av-p.m3u8
+#EXTINF:-1 group-title="DE",ONE HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FONE%2Flive%3Fkanal%3D673348
+#EXTINF:-1 group-title="DE",RBB Berlin HD | akamaihd.net
+https://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/index_7_av-p.m3u8
+#EXTINF:-1 group-title="DE",RBB Berlin HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Frbb-Fernsehen-Berlin%2Flive%3Fkanal%3D21518358
+#EXTINF:-1 group-title="DE",RBB Brandenburg HD | akamaihd.net
+https://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/index_7_av-p.m3u8
+#EXTINF:-1 group-title="DE",RBB Brandenburg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Frbb-Fernsehen-Brandenburg%2Flive%3Fkanal%3D21518356
+#EXTINF:-1 group-title="DE",SR Fernsehen Nord | akamaihd.net
+https://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8
+#EXTINF:-1 group-title="DE",SR Fernsehen Nord | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSR-Fernsehen%2Flive%3Fkanal%3D5870
+#EXTINF:-1 group-title="DE",SWR Baden-Württemberg HD | akamaihd.net
+https://swrbw-lh.akamaihd.net/i/swrbw_live@196738/index_3584_av-p.m3u8
+#EXTINF:-1 group-title="DE",SWR Baden-Württemberg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSWR-Baden-W%25C3%25BCrttemberg%2Flive%3Fkanal%3D5904
+#EXTINF:-1 group-title="DE",SWR Rheinland-Pfalz HD | akamaihd.net
+https://swrrp-lh.akamaihd.net/i/swrrp_live@196739/index_3584_av-p.m3u8
+#EXTINF:-1 group-title="DE",SWR Rheinland-Pfalz HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSWR-Rheinland-Pfalz%2Flive%3Fkanal%3D5872
+#EXTINF:-1 group-title="DE;Sport",Sky Sport News HD | akamaihd.net
 https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
-#EXTINF:-1 group-title="Deutsch;Nachrichten",Tagesschau24 | ardmediathek.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.ardmediathek.de%252Ftv%252Ftagesschau24%252Flive%253Fkanal%253D5878
-#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDF HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fzdf%252Fzdf-live-beitrag-100.html
-#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDFinfo HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fdokumentation%252Fzdfinfo-doku%252Fzdfinfo-live-beitrag-100.html
-#EXTINF:-1 group-title="Deutsch;Vollprogramm",ZDFneo HD | zdf.de
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.zdf.de%252Fsender%252Fzdfneo%252Fzdfneo-live-beitrag-100.html
+#EXTINF:-1 group-title="DE;Sport",Sport1 | sport1.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Ftv.sport1.de%2Fsport1%2F
+#EXTINF:-1 group-title="DE;Nachrichten",Tagesschau24 HD | akamaihd.net
+https://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE;Nachrichten",Tagesschau24 HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Ftagesschau24%2Flive%3Fkanal%3D5878
+#EXTINF:-1 group-title="DE",WDR HD | akamaihd.net
+http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",WDR HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FWDR-Fernsehen%2Flive%3Fkanal%3D5902
+#EXTINF:-1 group-title="DE;Nachrichten",Welt HD | akamaihd.net
+http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8
+#EXTINF:-1 group-title="DE;Nachrichten",Welt HD | welt.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.welt.de%2Ftv-programm-live-stream%2F
+#EXTINF:-1 group-title="DE",ZDF HD | akamaihd.net
+https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8
+#EXTINF:-1 group-title="DE",ZDF HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fsender%2Fzdf%2Fzdf-live-beitrag-100.html
+#EXTINF:-1 group-title="DE",ZDFinfo HD | akamaihd.net
+http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-p.m3u8
+#EXTINF:-1 group-title="DE",ZDFinfo HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fdokumentation%2Fzdfinfo-doku%2Fzdfinfo-live-beitrag-100.html
+#EXTINF:-1 group-title="DE",ZDFneo HD | akamaihd.net
+https://zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8
+#EXTINF:-1 group-title="DE",ZDFneo HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fsender%2Fzdfneo%2Fzdfneo-live-beitrag-100.html
