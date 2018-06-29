@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 group-title="DE",3sat | akamaihd.net
 https://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8
+#EXTINF:-1 group-title="DE",ALEX Berlin | rosebud-media.de
+https://alex-front.rosebud-media.de/live/smil:alexlivetv.smil/playlist.m3u8
 #EXTINF:-1 group-title="DE;Bildung",ARD-alpha HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
 #EXTINF:-1 group-title="DE",Arte HD | akamaihd.net

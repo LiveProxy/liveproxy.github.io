@@ -1,11 +1,31 @@
 #EXTM3U
+#EXTINF:-1 group-title="US;News",ABC News HD | akamaihd.net
+https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
+#EXTINF:-1 group-title="QA",Al Jazeera HD | aljazeera.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.aljazeera.com%2Flive%2F
 #EXTINF:-1 group-title="GB",BBC 1 HD | bbc.co.uk
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone
 #EXTINF:-1 group-title="GB",BBC 2 HD | bbc.co.uk
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo
+#EXTINF:-1 group-title="US",Bloomberg Asia HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia
+#EXTINF:-1 group-title="US",Bloomberg Asia Event HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia_stream
+#EXTINF:-1 group-title="US",Bloomberg Europe HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Feurope
+#EXTINF:-1 group-title="US",Bloomberg US HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fus
+#EXTINF:-1 group-title="US",Bloomberg US Event HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fstream
+#EXTINF:-1 group-title="US;News",CBSN HD | akamaihd.net
+https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
 #EXTINF:-1 group-title="GB",DW HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCknLrEdhRCp1aegoMqRaCZg
 #EXTINF:-1 group-title="GB",Euronews HD | euronews.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.euronews.com%2Flive
+#EXTINF:-1 group-title="US;News",MSNBC HD | akamaihd.net
+http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_4296_av-b.m3u8
+#EXTINF:-1 group-title="JP",NHK WORLD HD | stream.ne.jp
+https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
 #EXTINF:-1 group-title="GB;News",SkyNews HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCoMdktPbSTixAyNGwb-UYkQ

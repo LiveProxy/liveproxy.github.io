@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="DE",ALEX Berlin | rosebud-media.de
+https://alex-front.rosebud-media.de/live/smil:alexlivetv.smil/playlist.m3u8
 #EXTINF:-1 group-title="DE;Bildung",ARD-alpha HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
 #EXTINF:-1 group-title="DE;Bildung",ARD-alpha HD | ardmediathek.de
@@ -111,3 +113,5 @@ http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fdokumentation%
 https://zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8
 #EXTINF:-1 group-title="DE",ZDFneo HD | zdf.de
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fsender%2Fzdfneo%2Fzdfneo-live-beitrag-100.html
+#EXTINF:-1 group-title="DE",münchen.tv HD | muenchen.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.muenchen.tv%2Flivestream%2F
