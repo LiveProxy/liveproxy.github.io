@@ -3,6 +3,8 @@
 https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
 #EXTINF:-1 group-title="QA",Al Jazeera HD | aljazeera.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.aljazeera.com%2Flive%2F
+#EXTINF:-1 group-title="KR",ArirangTV | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuc-phizjv-ox8h7zd1ccn2nq
 #EXTINF:-1 group-title="GB",BBC 1 HD | bbc.co.uk
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone
 #EXTINF:-1 group-title="GB",BBC 2 HD | bbc.co.uk
