@@ -11,6 +11,8 @@ https://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-b.m3u8
 https://brlive-lh.akamaihd.net/i/bfsnord_germany@119898/index_3776_av-p.m3u8
 #EXTINF:-1 group-title="DE",BR Fernsehen Süd HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bfssued_germany@119890/index_3776_av-p.m3u8
+#EXTINF:-1 group-title="DE",Baden TV HD | cdn.icu.de
+https://cdn.icu.de/rtplive/smil:btv.smil/playlist.m3u8
 #EXTINF:-1 group-title="DE;Musik",DELUXE MUSIC | mivitec.net
 http://streaming-02.mivitec.net/live/smil:test.smil/playlist.m3u8
 #EXTINF:-1 group-title="DE",Das Erste HD | akamaized.net
@@ -43,6 +45,8 @@ https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/index_3776_av-p.m3u8
 http://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8
 #EXTINF:-1 group-title="DE",ONE HD | akamaihd.net
 http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_7_av-p.m3u8
+#EXTINF:-1 group-title="DE",Oldenburg Eins HD | 16.94:1935
+http://188.40.16.94:1935/live/studio/playlist.m3u8
 #EXTINF:-1 group-title="DE;Nachrichten",Phoenix | akamaihd.net
 https://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8
 #EXTINF:-1 group-title="DE",RBB Berlin HD | akamaihd.net
@@ -69,3 +73,9 @@ https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8
 http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-p.m3u8
 #EXTINF:-1 group-title="DE",ZDFneo HD | akamaihd.net
 https://zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8
+#EXTINF:-1 group-title="DE",allgäu.tv HD | iptv-playoutcenter.de
+https://tvallgaeu.iptv-playoutcenter.de/tvallgaeu/tvallgaeu.stream_1/playlist.m3u8
+#EXTINF:-1 group-title="DE",noa4 Hamburg HD | wtnet.de
+http://hls1.wtnet.de/noa4hh/apple/wifi.m3u8
+#EXTINF:-1 group-title="DE",noa4 Norderstedt HD | wtnet.de
+http://hls1.wtnet.de/noa4/apple/wifi.m3u8

@@ -21,7 +21,7 @@ http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2F
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fstream
 #EXTINF:-1 group-title="US;News",CBSN HD | akamaihd.net
 https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
-#EXTINF:-1 group-title="GB",DW HD | youtube.com
+#EXTINF:-1 group-title="DE",DW HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCknLrEdhRCp1aegoMqRaCZg
 #EXTINF:-1 group-title="GB",Euronews HD | euronews.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.euronews.com%2Flive
