@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTINF:-1 group-title="FR",AZUR TV | azur-tv.fr
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.azur-tv.fr%2Flive%2F
-#EXTINF:-1 group-title="FR",Arte HD | arte.tv
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Arte.png" group-title="FR",Arte HD | arte.tv
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.arte.tv%2Ffr%2Fdirect%2F
 #EXTINF:-1 group-title="FR",CNEWS HD | cnews.fr
 http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.cnews.fr%2Fle-direct
-#EXTINF:-1 group-title="FR",FRANCE 24 HD | youtube.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/France24.png" group-title="FR",FRANCE 24 HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
-#EXTINF:-1 group-title="FR",Franceinfo | dailymotion.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Franceinfo.png" group-title="FR",Franceinfo | dailymotion.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Ffrancetvinfo
 #EXTINF:-1 group-title="FR",IDF1 | idf1.fr
 http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.idf1.fr%2Flive

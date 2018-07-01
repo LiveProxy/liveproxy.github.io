@@ -1,33 +1,33 @@
 #EXTM3U
-#EXTINF:-1 group-title="US;News",ABC News HD | akamaihd.net
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/ABC.png" group-title="US;News",ABC News HD | akamaihd.net
 https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
-#EXTINF:-1 group-title="QA",Al Jazeera HD | aljazeera.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Aljazeera.png" group-title="QA",Al Jazeera HD | aljazeera.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.aljazeera.com%2Flive%2F
-#EXTINF:-1 group-title="KR",ArirangTV | youtube.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/Arirang_World.png" group-title="KR",ArirangTV | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuc-phizjv-ox8h7zd1ccn2nq
-#EXTINF:-1 group-title="GB",BBC 1 HD | bbc.co.uk
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/BBC-One.png" group-title="GB",BBC 1 HD | bbc.co.uk
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone
-#EXTINF:-1 group-title="GB",BBC 2 HD | bbc.co.uk
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/BBC-Two.png" group-title="GB",BBC 2 HD | bbc.co.uk
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo
-#EXTINF:-1 group-title="US",Bloomberg Asia HD | bloomberg.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png" group-title="US",Bloomberg Asia HD | bloomberg.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia
-#EXTINF:-1 group-title="US",Bloomberg Asia Event HD | bloomberg.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png" group-title="US",Bloomberg Asia Event HD | bloomberg.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia_stream
-#EXTINF:-1 group-title="US",Bloomberg Europe HD | bloomberg.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png" group-title="US",Bloomberg Europe HD | bloomberg.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Feurope
-#EXTINF:-1 group-title="US",Bloomberg US HD | bloomberg.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png" group-title="US",Bloomberg US HD | bloomberg.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fus
-#EXTINF:-1 group-title="US",Bloomberg US Event HD | bloomberg.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png" group-title="US",Bloomberg US Event HD | bloomberg.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fstream
-#EXTINF:-1 group-title="US;News",CBSN HD | akamaihd.net
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CBS_-_6_News.png" group-title="US;News",CBSN HD | akamaihd.net
 https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
-#EXTINF:-1 group-title="DE",DW HD | youtube.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png" group-title="DE",DW English HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCknLrEdhRCp1aegoMqRaCZg
-#EXTINF:-1 group-title="GB",Euronews HD | euronews.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/eu_euronews.png" group-title="EG;News",Euronews ENG HD | euronews.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.euronews.com%2Flive
-#EXTINF:-1 group-title="US;News",MSNBC HD | akamaihd.net
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/M/MSNBC.png" group-title="US;News",MSNBC HD | akamaihd.net
 http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_4296_av-b.m3u8
-#EXTINF:-1 group-title="JP",NHK WORLD HD | stream.ne.jp
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/NHK_World_TV.png" group-title="JP",NHK WORLD HD | stream.ne.jp
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
-#EXTINF:-1 group-title="GB;News",SkyNews HD | youtube.com
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/uk_skynews.png" group-title="GB;News",SkyNews HD | youtube.com
 http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCoMdktPbSTixAyNGwb-UYkQ
