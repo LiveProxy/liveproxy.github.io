@@ -3,6 +3,8 @@
 https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CBS_-_6_News.png" group-title="US;News",CBSN HD | akamaihd.net
 https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png" group-title="DE",DW English | akamaihd.net
+https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/M/MSNBC.png" group-title="US;News",MSNBC HD | akamaihd.net
 http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_4296_av-b.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/NHK_World_TV.png" group-title="JP",NHK WORLD HD | stream.ne.jp
