@@ -1,12 +1,2 @@
-iptv/de.m3u
-iptv/de_direct.m3u
-iptv/fr.m3u
-iptv/fr_direct.m3u
-iptv/gb.m3u
-iptv/gb_direct.m3u
-iptv/ru.m3u
-iptv/ru_direct.m3u
-iptv/tr.m3u
-iptv/tr_direct.m3u
-iptv/vn.m3u
-iptv/vn_direct.m3u
+iptv/all.m3u
+iptv/all_direct.m3u

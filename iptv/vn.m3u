@@ -1,5 +1,0 @@
-#EXTM3U
-#EXTINF:-1 group-title="VN",THVL 1 HD | thvli.vn
-http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fthvli.vn%2Flive%2Fthvl1-hd%2Faab94d1f-44e1-4992-8633-6d46da08db42
-#EXTINF:-1 group-title="VN",THVL 2 HD | thvli.vn
-http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fthvli.vn%2Flive%2Fthvl2-hd%2Fbc60bddb-99ac-416e-be26-eb4d0852f5cc
