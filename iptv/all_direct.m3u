@@ -117,6 +117,8 @@ https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/The_Weather_Channel.png" group-title="Weather",Weather Channel HD
 https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+#EXTINF:-1,IZ.RU HD
+https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20HD.png",Россия 1
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-24.png",Россия 24

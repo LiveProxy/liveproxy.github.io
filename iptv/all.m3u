@@ -1,24 +1,42 @@
 #EXTM3U
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",DW Arabic HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Fdeutschewellearabic
+#EXTINF:-1 group-title="Music",HIT-RADIO HD | dailymotion.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Fhit-radio
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/3Sat.png",3sat | akamaihd.net
 https://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/3Sat.png",3sat | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2F3sat%2Flive%3Fkanal%3D5900
 #EXTINF:-1,ALEX Berlin | rosebud-media.de
 https://alex-front.rosebud-media.de/live/smil:alexlivetv.smil/playlist.m3u8
 #EXTINF:-1,allgäu.tv HD | iptv-playoutcenter.de
 https://tvallgaeu.iptv-playoutcenter.de/tvallgaeu/tvallgaeu.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ard_alpha.png" group-title="Bildung",ARD-alpha HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ard_alpha.png" group-title="Bildung",ARD-alpha HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FARD-alpha%2Flive%3Fkanal%3D5868
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Arte.png",Arte HD | akamaihd.net
 https://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-b.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Arte.png",Arte HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FARTE-deutsch%2Flive%3Fkanal%3D5880
 #EXTINF:-1,Baden TV HD | cdn.icu.de
 https://cdn.icu.de/rtplive/smil:btv.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Nord HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bfsnord_germany@119898/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Nord HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FBR-Fernsehen-Nord%2Flive%3Fkanal%3D21537244
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Süd HD | akamaihd.net
 https://brlive-lh.akamaihd.net/i/bfssued_germany@119890/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Süd HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FBR-Fernsehen-S%25C3%25BCd%2Flive%3Fkanal%3D21518950
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ARD.png",Das Erste HD | akamaized.net
 https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ARD.png",Das Erste HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FDas-Erste%2Flive%3Fkanal%3D208
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/deluxemusic.de.png" group-title="Musik",DELUXE MUSIC | mivitec.net
 http://streaming-02.mivitec.net/live/smil:test.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",Deutsche Welle HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Fdeutschewelle
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",Deutsche Welle | akamaihd.net
 https://dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/master.m3u8
 #EXTINF:-1,Deutscher Bundestag 1 HD | streamfarm.net
@@ -27,28 +45,52 @@ https://c13014-l-hls.u.core.cdn.streamfarm.net/1000153copo/hk1.m3u8
 https://c13014-l-hls.u.core.cdn.streamfarm.net/1000153copo/hk2.m3u8
 #EXTINF:-1,eoTV HD | smartcast.de:1935
 http://cdn-europe.smartcast.de:1935/eotv/eotvhd/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/eu_euronews.png" group-title="Nachrichten",Euronews DE HD | euronews.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fde.euronews.com%2Flive
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_hr.png",HR HD | akamaihd.net
 http://hrlive1-lh.akamaihd.net/i/hr_fernsehen@75910/index_3584_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_hr.png",HR HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Fhr-fernsehen%2Flive%3Fkanal%3D5884
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Kika.png" group-title="Kinder",KiKA HD | akamaihd.net
 https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Kika.png" group-title="Kinder",KiKA HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FKiKA%2Flive%3Fkanal%3D5886
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen HD | akamaihd.net
 http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-SACHSEN%2Flive%3Fkanal%3D1386804
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen-Anhalt HD | akamaihd.net
 http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen-Anhalt HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-SACHSEN-ANHALT%2Flive%3Fkanal%3D1386898
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Thüringen HD | akamaihd.net
 http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Thüringen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FMDR-TH%25C3%259CRINGEN%2Flive%3Fkanal%3D1386988
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_mtv.png",MTV Germany HD | akamaihd.net
 http://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
+#EXTINF:-1,münchen.tv HD | muenchen.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.muenchen.tv%2Flivestream%2F
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_ntv.png" group-title="Nachrichten",N-TV | akamaihd.net
 https://ntvlivehls-lh.akamaihd.net/i/ntvlivehls_1@409250/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_ntv.png" group-title="Nachrichten",N-TV | n-tv.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.n-tv.de%2Fmediathek%2Flivestream%2F
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Hamburg HD | akamaihd.net
 https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Hamburg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Hamburg%2Flive%3Fkanal%3D21518348
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Mecklenburg-Vorpommern HD | akamaihd.net
 https://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Mecklenburg-Vorpommern HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Mecklenburg-Vorpommern%2Flive%3Fkanal%3D21518350
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Niedersachsen HD | akamaihd.net
 https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Niedersachsen HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Niedersachsen%2Flive%3Fkanal%3D21518352
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Schleswig-Holstein HD | akamaihd.net
 https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Schleswig-Holstein HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FNDR-Schleswig-Holstein%2Flive%3Fkanal%3D21518354
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_nick.png" group-title="Kinder",Nickelodeon HD | akamaihd.net
 http://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8
 #EXTINF:-1,noa4 Hamburg HD | wtnet.de
@@ -59,42 +101,92 @@ http://hls1.wtnet.de/noa4/apple/wifi.m3u8
 http://188.40.16.94:1935/live/studio/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_one.png",ONE HD | akamaihd.net
 http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_7_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_one.png",ONE HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FONE%2Flive%3Fkanal%3D673348
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Phoenix.png" group-title="Nachrichten",Phoenix | akamaihd.net
 https://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Phoenix.png" group-title="Nachrichten",Phoenix | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FPhoenix%2Flive%3Fkanal%3D5888
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Berlin HD | akamaihd.net
 https://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/index_7_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Berlin HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Frbb-Fernsehen-Berlin%2Flive%3Fkanal%3D21518358
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Brandenburg HD | akamaihd.net
 https://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/index_7_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Brandenburg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Frbb-Fernsehen-Brandenburg%2Flive%3Fkanal%3D21518356
 #EXTINF:-1,Ric / eoTV HD | streamlock.net
 https://58b42f6c8c9bf.streamlock.net/live/rictv/playlist.m3u8
+#EXTINF:-1,RocketBeansTV HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FROCKETBEANSTV
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_servus_tv_hd.png",ServusTV HD | akamaihd.net
 https://liveservustv-i.akamaihd.net/hls/live/271000/ServusTV_DE/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/S/Sky_Sport_News_HD.png" group-title="Sport",Sky Sport News HD | akamaihd.net
 https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_sport_1_hd.png" group-title="Sport",Sport1 | sport1.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Ftv.sport1.de%2Fsport1%2F
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_sr.png",SR Fernsehen Nord | akamaihd.net
 https://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_sr.png",SR Fernsehen Nord | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSR-Fernsehen%2Flive%3Fkanal%3D5870
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Baden-Württemberg HD | akamaihd.net
 https://swrbw-lh.akamaihd.net/i/swrbw_live@196738/index_3584_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Baden-Württemberg HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSWR-Baden-W%25C3%25BCrttemberg%2Flive%3Fkanal%3D5904
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Rheinland-Pfalz HD | akamaihd.net
 https://swrrp-lh.akamaihd.net/i/swrrp_live@196739/index_3584_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Rheinland-Pfalz HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FSWR-Rheinland-Pfalz%2Flive%3Fkanal%3D5872
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Tagesschau24.png" group-title="Nachrichten",Tagesschau24 HD | akamaihd.net
 https://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Tagesschau24.png" group-title="Nachrichten",Tagesschau24 HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2Ftagesschau24%2Flive%3Fkanal%3D5878
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_wdr.png",WDR HD | akamaihd.net
 http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/index_3776_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_wdr.png",WDR HD | ardmediathek.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ardmediathek.de%2Ftv%2FWDR-Fernsehen%2Flive%3Fkanal%3D5902
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_n24.png" group-title="Nachrichten",Welt HD | akamaihd.net
 http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_n24.png" group-title="Nachrichten",Welt HD | welt.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.welt.de%2Ftv-programm-live-stream%2F
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF.png",ZDF HD | akamaihd.net
 https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF.png",ZDF HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fsender%2Fzdf%2Fzdf-live-beitrag-100.html
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Info.png",ZDFinfo HD | akamaihd.net
 http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-p.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Info.png",ZDFinfo HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fdokumentation%2Fzdfinfo-doku%2Fzdfinfo-live-beitrag-100.html
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Neo.png",ZDFneo HD | akamaihd.net
 https://zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Neo.png",ZDFneo HD | zdf.de
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.zdf.de%2Fsender%2Fzdfneo%2Fzdfneo-live-beitrag-100.html
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/ABC.png" group-title="News",ABC News HD | akamaihd.net
 https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Aljazeera.png",Al Jazeera HD | aljazeera.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.aljazeera.com%2Flive%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/Arirang_World.png",ArirangTV | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuc-phizjv-ox8h7zd1ccn2nq
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/BBC-One.png",BBC 1 HD | bbc.co.uk
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbcone
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/BBC-Two.png",BBC 2 HD | bbc.co.uk
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bbc.co.uk%2Fiplayer%2Flive%2Fbbctwo
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png",Bloomberg Asia HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png",Bloomberg Asia Event HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fasia_stream
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png",Bloomberg Europe HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Feurope
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png",Bloomberg US HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fus
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Bloomberg-Television.png",Bloomberg US Event HD | bloomberg.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.bloomberg.com%2Flive%2Fstream
 #EXTINF:-1 group-title="Music",California Music Channel HD | internapcdn.net
 http://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMC-TV/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CBS_-_6_News.png" group-title="News",CBSN HD | akamaihd.net
 https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",DW English HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCknLrEdhRCp1aegoMqRaCZg
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",DW English | akamaihd.net
 https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/master.m3u8
 #EXTINF:-1 radio="true",EbS - English version | streamcloud.be
@@ -109,24 +201,158 @@ http://defiris.ec.streamcloud.be/live/audio/ebsplus_en_128.mp3
 http://defiris.ec.streamcloud.be/live/audio/ebsplus_or_128.mp3
 #EXTINF:-1,EbS+ Live HD | streamcloud.be
 http://ott.ec.streamcloud.be/live/disk1/EBSplus/hls_or/EBSplus.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/eu_euronews.png" group-title="News",Euronews ENG HD | euronews.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.euronews.com%2Flive
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/M/MSNBC.png" group-title="News",MSNBC HD | akamaihd.net
 http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_4296_av-b.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/Nasa_TV.png",Nasa ISS Views HD | ustream.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.ustream.tv%2Fembed%2F17074538%3Fhtml5ui%26autoplay%3Dtrue
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/Nasa_TV.png",Nasa Media HD | akamaihd.net
+http://127.0.0.1:53422/streamlink/?http-header=Referer%3Dhttps%3A%2F%2Fwww.nasa.gov%2Fmultimedia%2Fnasatv%2F&url=https%3A%2F%2Fnasa-i.akamaihd.net%2Fhls%2Flive%2F253566%2FNASA-NTV2-Media%2Fmaster.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/Nasa_TV.png",Nasa Public HD | akamaihd.net
+http://127.0.0.1:53422/streamlink/?http-header=Referer%3Dhttps%3A%2F%2Fwww.nasa.gov%2Fmultimedia%2Fnasatv%2F&url=https%3A%2F%2Fnasa-i.akamaihd.net%2Fhls%2Flive%2F253565%2FNASA-NTV1-Public%2Fmaster.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/NHK_World_TV.png",NHK WORLD HD | stream.ne.jp
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
 #EXTINF:-1,Red Bull TV HD | akamaized.net
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/uk_skynews.png" group-title="News",SkyNews HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCoMdktPbSTixAyNGwb-UYkQ
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/The_Weather_Channel.png" group-title="Weather",Weather Channel HD | akamaihd.net
 https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Arte.png",Arte HD | arte.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.arte.tv%2Ffr%2Fdirect%2F
+#EXTINF:-1,AZUR TV | azur-tv.fr
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.azur-tv.fr%2Flive%2F
+#EXTINF:-1,CNEWS HD | cnews.fr
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.cnews.fr%2Fle-direct
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/France24.png",FRANCE 24 HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Franceinfo.png",Franceinfo | dailymotion.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Ffrancetvinfo
+#EXTINF:-1,IDF1 | idf1.fr
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.idf1.fr%2Flive
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/D/DD_Punjabi.png",DD NEWS | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuckwucpzhz7zcuif7if-wo1g
+#EXTINF:-1,IndiaTV | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucttspzeszidewwpvigoztwq
+#EXTINF:-1,News18 India HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucpp3etacgduwvizces1dj8q
+#EXTINF:-1,Tez TV HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucqc1wgbooioc23frgxt4kbg
+#EXTINF:-1,TV9 Marathi HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucer8xdjet_7fov4xyfchbhw
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/Toya_TV.png",Toya TV HD | tvtoya.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvtoya.pl%2Flive
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP%20INFO.png",TVP INFO HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1455
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP%20POLONIA.png",TVP POLONIA HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D34776037
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Bia%C5%82ystok.png",TVP3 Białystok HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D745680
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Bydgoszcz.png",TVP3 Bydgoszcz HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1634239
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Gda%C5%84sk.png",TVP3 Gdańsk HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1475382
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Gorz%C3%B3w%20Wielkopolski.png",TVP3 Gorzów Wielkopolski HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1393744
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Katowice.png",TVP3 Katowice HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1393798
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Kielce.png",TVP3 Kielce HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1393838
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Krak%C3%B3w.png",TVP3 Kraków HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1393797
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Lublin.png",TVP3 Lublin HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1634225
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Olsztyn.png",TVP3 Olsztyn HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1634191
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Opole.png",TVP3 Opole HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1754257
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Pozna%C5%84.png",TVP3 Poznań HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1634308
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Rzesz%C3%B3w.png",TVP3 Rzeszów HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1604289
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Szczecin.png",TVP3 Szczecin HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1604296
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Warszawa.png",TVP3 Warszawa HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D699026
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20Wroc%C5%82aw.png",TVP3 Wrocław HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1634331
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/PL/TVP3%20%C5%81%C3%B3d%C5%BA.png",TVP3 Łódź HD | vod.tvp.pl
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Ftvpstream.vod.tvp.pl%2F%3Fchannel_id%3D1604263
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/eu_euronews.png",Euronews RU HD | euronews.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fru.euronews.com%2Flive
+#EXTINF:-1,IZ.RU HD | cdnvideo.ru
+https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8%D0%B9.png",Домашний | domashniy.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fdomashniy.ru%2Fonline%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9C%D0%B0%D1%82%D1%87%20%D0%A2%D0%92.png",Матч HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F11bbbec75a2ceb8cf446ad16813c6eec%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9D%D0%A2%D0%92.png",НТВ HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F42a58f895935bbf495089a2e1fe15e46%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9D%D0%A2%D0%92.png",НТВ HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUCsA_vkmuyIRlYYXeJueyIJQ
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9E%D0%A2%D0%A0.png",ОТР HD | otr-online.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fotr-online.ru%2Fonline%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB.png",Первый канал HD | 1tv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.1tv.ru%2Flive
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/5%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB.png",Пятый канал | 5-tv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.5-tv.ru%2Flive%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%95%D0%9D%20%D0%A2%D0%92.png",РЕН ТВ HD | ren.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fren.tv%2Flive
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20HD.png",Россия 1 HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F0d95f897c5892509bf966ba6d884fd23%2F
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20HD.png",Россия 1 | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-24.png",Россия 24 | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-24.png",Россия 24 | russia.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Flive.russia.tv%2Findex%2Findex%2Fchannel_id%2F3
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0.png",Россия Культура | russia.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Flive.russia.tv%2Findex%2Findex%2Fchannel_id%2F4
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0.png",Россия Культура | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v0/ru_rossija_rtr.png",Россия РТР | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v0/ru_rossija_rtr.png",Россия РТР | russia.tv
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Flive.russia.tv%2Findex%2Findex%2Fchannel_id%2F82
 #EXTINF:-1,Страна | rtr-vesti.ru
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:strana.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A1%D0%A2%D0%A1.png",СТС | ctc.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fctc.ru%2Fonline%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A1%D0%A2%D0%A1%20Love.png",СТС Love | ctclove.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fctclove.ru%2Fonline%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%9F%D1%8F%D1%82%D0%BD%D0%B8%D1%86%D0%B0.png",СУПЕР HD | friday.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Ffriday.ru%2Fonline
+#EXTINF:-1,СУПЕР HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2Fdfbae35e461b25d827319d93ed5c1d76%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A2%D0%9D%D0%A2.png",ТНТ HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2F546602986e6a424d74d594876ddb3f04%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A2%D0%9D%D0%A24.png",ТНТ4 HD | rutube.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Frutube.ru%2Fvideo%2Fc801a7087e29a097192d74c270fbc6c1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A7%D0%B5.png",Че | chetv.ru
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fchetv.ru%2Fonline%2F
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",DW Español HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FDeutscheWelleEspanol
+#EXTINF:-1,Top News | dailymotion.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Fdy4txnudsdwys39
+#EXTINF:-1,K23 | dailymotion.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Ftelevizijak23
+#EXTINF:-1,Citizen TV | dailymotion.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.dailymotion.com%2Froyal-media
+#EXTINF:-1,iNooro TV | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuczlnmltvnxzwb0axilk-rdw
+#EXTINF:-1,Polimer TV HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fuc8z-vjxbtdjtvq6aqkiskpg
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CNN_Turk.png",CNN TÜRK | cnnturk.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.cnnturk.com%2Fcanli-yayin
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/Fox.tr.png",FOX HD | fox.com.tr
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.fox.com.tr%2Fcanli-yayin
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/KanalD.tr.png",KANAL D | kanald.com.tr
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.kanald.com.tr%2Fcanli-yayin
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/Kanal7.tr.png",KANAL7 HD | kanal7.com
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fwww.kanal7.com%2Fcanli-izle
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TLC.tr.png",TLC HD | tlctv.com.tr
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.tlctv.com.tr%2Fcanli-izle
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRT1.tr.png",TRT 1 HD | akamaihd.net
 https://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8
 #EXTINF:-1,TRT BELGESEL HD | akamaihd.net
@@ -139,3 +365,17 @@ http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
 http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/TRT_T%C3%83%C2%BCrk.png",TRT TÜRK HD | akamaihd.net
 http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TV8.tr.png",TV8 HD | tv8.com.tr
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.tv8.com.tr%2Fcanli-yayin
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/9/92_News_HD.png",92 News HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucsgc5cbz3de2shh34gnkiog
+#EXTINF:-1,BOL NEWS HD | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucv6-cunsfe2-styfykd7bbq
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/D/Dunya_News_USA.png",Dunya News | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucnmbv5iw4wqkilkue1np6hg
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TVLogos-1/master/Samaa.png",SAMAA TV | youtube.com
+http://127.0.0.1:53422/streamlink/?url=https%3A%2F%2Fwww.youtube.com%2Fchannel%2Fucjekw1vj5fcvegdye_mbn6q
+#EXTINF:-1,THVL 1 HD | thvli.vn
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fthvli.vn%2Flive%2Fthvl1-hd%2Faab94d1f-44e1-4992-8633-6d46da08db42
+#EXTINF:-1,THVL 2 HD | thvli.vn
+http://127.0.0.1:53422/streamlink/?url=http%3A%2F%2Fthvli.vn%2Flive%2Fthvl2-hd%2Fbc60bddb-99ac-416e-be26-eb4d0852f5cc
