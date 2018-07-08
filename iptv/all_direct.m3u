@@ -1,143 +1,143 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/3Sat.png",3sat
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/3/3sat.png" group-title="DEU",3sat
 https://zdf0910-lh.akamaihd.net/i/dach10_v1@392872/master.m3u8
-#EXTINF:-1,ALEX Berlin
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/A/alex_berlin.png" group-title="DEU",ALEX Berlin
 https://alex-front.rosebud-media.de/live/smil:alexlivetv.smil/playlist.m3u8
-#EXTINF:-1,allgäu.tv HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/A/allgaeutv.png" group-title="DEU",allgäu.tv
 https://tvallgaeu.iptv-playoutcenter.de/tvallgaeu/tvallgaeu.stream_1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ard_alpha.png" group-title="Bildung",ARD-alpha HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/A/ardalpha.png" group-title="DEU",ARD-alpha
 https://brlive-lh.akamaihd.net/i/bralpha_germany@119899/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Arte.png",Arte HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/A/arte.png" group-title="DEU",Arte
 https://artelive-lh.akamaihd.net/i/artelive_de@393591/index_1_av-b.m3u8
-#EXTINF:-1,Baden TV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/B/badentv.png" group-title="DEU",Baden TV
 https://cdn.icu.de/rtplive/smil:btv.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Nord HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/B/br.png" group-title="DEU",BR Nord
 https://brlive-lh.akamaihd.net/i/bfsnord_germany@119898/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_br.png",BR Süd HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/B/br.png" group-title="DEU",BR Süd
 https://brlive-lh.akamaihd.net/i/bfssued_germany@119890/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ARD.png",Das Erste HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/daserste.png" group-title="DEU",Das Erste
 https://derste247livede.akamaized.net/hls/live/658317/daserste_de/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/deluxemusic.de.png" group-title="Musik",DELUXE MUSIC
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/deluxemusic.de.png" group-title="DEU",DELUXE MUSIC
 http://streaming-02.mivitec.net/live/smil:test.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",Deutsche Welle
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/deutsche-welle.png" group-title="DEU",Deutsche Welle
 https://dwstream72-lh.akamaihd.net/i/dwstream72_live@123556/master.m3u8
-#EXTINF:-1,Deutscher Bundestag 1 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/deutscher_bundestag.png" group-title="DEU",Deutscher Bundestag 1
 https://c13014-l-hls.u.core.cdn.streamfarm.net/1000153copo/hk1.m3u8
-#EXTINF:-1,Deutscher Bundestag 2 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/deutscher_bundestag.png" group-title="DEU",Deutscher Bundestag 2
 https://c13014-l-hls.u.core.cdn.streamfarm.net/1000153copo/hk2.m3u8
-#EXTINF:-1,eoTV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/E/eotv.png" group-title="DEU",eoTV
 http://cdn-europe.smartcast.de:1935/eotv/eotvhd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_hr.png",HR HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/H/hr.png" group-title="DEU",HR
 http://hrlive1-lh.akamaihd.net/i/hr_fernsehen@75910/index_3584_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Kika.png" group-title="Kinder",KiKA HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/K/kika.png" group-title="DEU",KiKA
 https://kikade-lh.akamaihd.net/i/livetvkika_de@450035/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/M/mdr.png" group-title="DEU",MDR Sachsen
 http://mdrsnhls-lh.akamaihd.net/i/livetvmdrsachsen_de@513998/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Sachsen-Anhalt HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/M/mdr.png" group-title="DEU",MDR Sachsen-Anhalt
 http://mdrsahls-lh.akamaihd.net/i/livetvmdrsachsenanhalt_de@513999/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_mdr.png",MDR Thüringen HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/M/mdr.png" group-title="DEU",MDR Thüringen
 http://mdrthuhls-lh.akamaihd.net/i/livetvmdrthueringen_de@514027/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_mtv.png",MTV Germany HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/M/mtv.png" group-title="DEU",MTV Germany
 http://unilivemtveu-lh.akamaihd.net/i/mtvde_1@134922/index_3500_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_ntv.png" group-title="Nachrichten",N-TV
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/ntv.png" group-title="DEU",N-TV
 https://ntvlivehls-lh.akamaihd.net/i/ntvlivehls_1@409250/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Hamburg HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/ndr.png" group-title="DEU",NDR Hamburg
 https://ndrfs-lh.akamaihd.net/i/ndrfs_hh@430231/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Mecklenburg-Vorpommern HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/ndr.png" group-title="DEU",NDR Mecklenburg-Vorpommern
 https://ndrfs-lh.akamaihd.net/i/ndrfs_mv@430232/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Niedersachsen HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/ndr.png" group-title="DEU",NDR Niedersachsen
 https://ndrfs-lh.akamaihd.net/i/ndrfs_nds@430233/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_ndr.png",NDR Schleswig-Holstein HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/ndr.png" group-title="DEU",NDR Schleswig-Holstein
 https://ndrfs-lh.akamaihd.net/i/ndrfs_sh@430234/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v2/de_nick.png" group-title="Kinder",Nickelodeon HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/nickelodeon.png" group-title="DEU",Nickelodeon
 http://unilivemtveu-lh.akamaihd.net/i/nickde_1@448749/index_3500_av-b.m3u8
-#EXTINF:-1,noa4 Hamburg HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/noa4.png" group-title="DEU",noa4 Hamburg
 http://hls1.wtnet.de/noa4hh/apple/wifi.m3u8
-#EXTINF:-1,noa4 Norderstedt HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/N/noa4.png" group-title="DEU",noa4 Norderstedt
 http://hls1.wtnet.de/noa4/apple/wifi.m3u8
-#EXTINF:-1,Oldenburg Eins HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/O/oldenburgeins.png" group-title="DEU",Oldenburg Eins
 http://188.40.16.94:1935/live/studio/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_one.png",ONE HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/O/one.png" group-title="DEU",ONE
 http://onelivestream-lh.akamaihd.net/i/one_livestream@568814/index_7_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Phoenix.png" group-title="Nachrichten",Phoenix
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/P/phoenix.png" group-title="DEU",Phoenix
 https://zdf0910-lh.akamaihd.net/i/de09_v1@392871/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Berlin HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/R/rbb.png" group-title="DEU",RBB Berlin
 https://rbblive-lh.akamaihd.net/i/rbb_berlin@144674/index_7_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_rbb.png",RBB Brandenburg HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/R/rbb.png" group-title="DEU",RBB Brandenburg
 https://rbblive-lh.akamaihd.net/i/rbb_brandenburg@349369/index_7_av-p.m3u8
-#EXTINF:-1,Ric / eoTV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/R/ric.png" group-title="DEU",Ric / eoTV
 https://58b42f6c8c9bf.streamlock.net/live/rictv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_servus_tv_hd.png",ServusTV HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_servus_tv_hd.png" group-title="DEU",ServusTV
 https://liveservustv-i.akamaihd.net/hls/live/271000/ServusTV_DE/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/S/Sky_Sport_News_HD.png" group-title="Sport",Sky Sport News HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/S/skysportnews.png" group-title="DEU",Sky Sport News
 https://eventhlshttps-i.akamaihd.net/hls/live/263645/ssn-hd-https/indexvideo-3400.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_sr.png",SR Fernsehen Nord
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/S/srfernsehen.png" group-title="DEU",SR Fernsehen Nord
 https://srlive24-lh.akamaihd.net/i/sr_universal02@107595/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Baden-Württemberg HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/S/swr.png" group-title="DEU",SWR Baden-Württemberg
 https://swrbw-lh.akamaihd.net/i/swrbw_live@196738/index_3584_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_swr.png",SWR Rheinland-Pfalz HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/S/swr.png" group-title="DEU",SWR Rheinland-Pfalz
 https://swrrp-lh.akamaihd.net/i/swrrp_live@196739/index_3584_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Tagesschau24.png" group-title="Nachrichten",Tagesschau24 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/T/tagesschau24.png" group-title="DEU",Tagesschau24
 https://tagesschau-lh.akamaihd.net/i/tagesschau_1@119231/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_wdr.png",WDR HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/W/wdr.png" group-title="DEU",WDR
 http://wdrfsgeo-lh.akamaihd.net/i/wdrfs_geogeblockt@530016/index_3776_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v1/de_n24.png" group-title="Nachrichten",Welt HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/W/welt.png" group-title="DEU",Welt
 http://live2weltcms-lh.akamaihd.net/i/Live2WeltCMS_1@444563/index_1_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF.png",ZDF HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/Z/zdf.png" group-title="DEU",ZDF
 https://zdf1314-lh.akamaihd.net/i/de14_v1@392878/index_3096_av-b.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Info.png",ZDFinfo HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/Z/zdfinfo.png" group-title="DEU",ZDFinfo
 http://zdf1112-lh.akamaihd.net/i/de12_v1@392882/index_3096_av-p.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/ZDF-Neo.png",ZDFneo HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/Z/zdfneo.png" group-title="DEU",ZDFneo
 https://zdf1314-lh.akamaihd.net/i/de13_v1@392877/index_3096_av-b.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/ABC.png" group-title="News",ABC News HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/A/ABC.png" group-title="ENG",ABC News
 https://abclive1-lh.akamaihd.net/i/abc_live10@420897/master.m3u8
-#EXTINF:-1 group-title="Music",California Music Channel HD
+#EXTINF:-1 group-title="ENG",California Music Channel
 http://cmctv.ios.internapcdn.net/cmctv_vitalstream_com/live_1/CMC-TV/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CBS_-_6_News.png" group-title="News",CBSN HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/C/CBS_-_6_News.png" group-title="ENG",CBSN
 https://cbsnewshd-lh.akamaihd.net/i/cbsnhd_7@199302/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/squaredTV/master/squaredTV_generic/Deutsche-Welle.png",DW English
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/logo/master/256/D/deutsche-welle.png" group-title="ENG",DW English
 https://dwstream1-lh.akamaihd.net/i/dwstream1_live@120422/master.m3u8
-#EXTINF:-1 radio="true",EbS - English version
+#EXTINF:-1 radio="true" group-title="ENG",EbS - English version
 http://defiris.ec.streamcloud.be/live/audio/ebs_en_128.mp3
-#EXTINF:-1 radio="true",EbS - Original version
+#EXTINF:-1 radio="true" group-title="ENG",EbS - Original version
 http://defiris.ec.streamcloud.be/live/audio/ebs_or_128.mp3
-#EXTINF:-1,EbS Live HD
+#EXTINF:-1 group-title="ENG",EbS Live
 http://ott.ec.streamcloud.be/live/disk1/EBS/hls_or/EBS.m3u8
-#EXTINF:-1 radio="true",EbS+ - English version
+#EXTINF:-1 radio="true" group-title="ENG",EbS+ - English version
 http://defiris.ec.streamcloud.be/live/audio/ebsplus_en_128.mp3
-#EXTINF:-1 radio="true",EbS+ - Original version
+#EXTINF:-1 radio="true" group-title="ENG",EbS+ - Original version
 http://defiris.ec.streamcloud.be/live/audio/ebsplus_or_128.mp3
-#EXTINF:-1,EbS+ Live HD
+#EXTINF:-1 group-title="ENG",EbS+ Live
 http://ott.ec.streamcloud.be/live/disk1/EBSplus/hls_or/EBSplus.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/M/MSNBC.png" group-title="News",MSNBC HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/M/MSNBC.png" group-title="ENG",MSNBC
 http://tvemsnbc-lh.akamaihd.net/i/nbcmsnbc_1@122532/index_4296_av-b.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/NHK_World_TV.png",NHK WORLD HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/N/NHK_World_TV.png" group-title="ENG",NHK WORLD
 https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/global/263941/live_wa_s.m3u8
-#EXTINF:-1,Red Bull TV HD
+#EXTINF:-1 group-title="ENG",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/The_Weather_Channel.png" group-title="Weather",Weather Channel HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/The_Weather_Channel.png" group-title="ENG",Weather Channel
 https://weather-lh.akamaihd.net/i/twc_1@92006/master.m3u8
-#EXTINF:-1,IZ.RU HD
+#EXTINF:-1 group-title="RUS",IZ.RU
 https://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20HD.png",Россия 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20HD.png" group-title="RUS",Россия 1
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rhd.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-24.png",Россия 24
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-24.png" group-title="RUS",Россия 24
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:r24.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0.png",Россия Культура
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/tvlogos/master/dark/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%9A%D1%83%D0%BB%D1%8C%D1%82%D1%83%D1%80%D0%B0.png" group-title="RUS",Россия Культура
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v0/ru_rossija_rtr.png",Россия РТР
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/resources/master/logos/v0/ru_rossija_rtr.png" group-title="RUS",Россия РТР
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/master.m3u8
-#EXTINF:-1,Страна
+#EXTINF:-1 group-title="RUS",Страна
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:strana.smil/chunklist_b1600000.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRT1.tr.png",TRT 1 HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRT1.tr.png" group-title="TUR",TRT 1
 https://trtcanlitv-lh.akamaihd.net/i/TRT1HD_1@181842/master.m3u8
-#EXTINF:-1,TRT BELGESEL HD
+#EXTINF:-1 group-title="TUR",TRT BELGESEL
 http://trtcanlitv-lh.akamaihd.net/i/TRTBELGESEL_1@182145/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRTHaber.tr.png",TRT HABER HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRTHaber.tr.png" group-title="TUR",TRT HABER
 http://trtcanlitv-lh.akamaihd.net/i/TRTHABERHD_1@181942/master.m3u8
-#EXTINF:-1,TRT MÜZİK HD
+#EXTINF:-1 group-title="TUR",TRT MÜZİK
 http://trtcanlitv-lh.akamaihd.net/i/TRTMUZIK_1@181845/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRTSporHD.tr.png",TRT SPOR HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/picons-IPTV/master/Turkey/TRTSporHD.tr.png" group-title="TUR",TRT SPOR
 http://trtcanlitv-lh.akamaihd.net/i/TRTSPOR1_1@182042/master.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/TRT_T%C3%83%C2%BCrk.png",TRT TÜRK HD
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/python-iptv/TheLogoDB/master/T/TRT_T%C3%83%C2%BCrk.png" group-title="TUR",TRT TÜRK
 http://trtcanlitv-lh.akamaihd.net/i/TRTTURK_1@182144/master.m3u8
