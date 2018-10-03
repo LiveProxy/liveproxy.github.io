@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>URL Guide &mdash; LiveProxy 0.0.4.dev1 documentation</title>
+  <title>URL Guide &mdash; LiveProxy 0.0.4.dev2 documentation</title>
   
 
   
@@ -60,7 +60,7 @@
             
             
               <div class="version">
-                0.0.4.dev1
+                0.0.4.dev2
               </div>
             
           
@@ -106,17 +106,11 @@
 <li class="toctree-l1 current"><a class="current reference internal" href="#">URL Guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#tutorial">Tutorial</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#base64">Base64</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#basic-url">Basic URL</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#url-encoded">URL encoded</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#quality">Quality</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#options">Options</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#configuration-file">Configuration file</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#redirect">Redirect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">URL</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#m3u">M3U</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id2">Userbouquet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
 </ul>
 </li>
 </ul>
@@ -225,9 +219,9 @@ starting LiveProxy in your terminal.</p>
 <div class="section" id="base64">
 <h2>Base64<a class="headerlink" href="#base64" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div><p>The URL build was simplified, the normal Streamlink command can be used
-after it was base64 encoded.</p>
-<p>Basic URL, the <cite>STREAMLINK-COMMANDS</cite> must be replaced with your command.</p>
+<div><p>The LiveProxy URL build was simplified,
+the <cite>STREAMLINK-COMMANDS</cite> part must be replaced with your Streamlink commands
+after they got base64 encoded.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">STREAMLINK</span><span class="o">-</span><span class="n">COMMANDS</span><span class="o">/</span>
 </pre></div>
 </div>
@@ -237,54 +231,32 @@ after it was base64 encoded.</p>
 </div>
 <p>Redirect with <cite>–player-passthrough</cite> is currently not supported,
 it will be added in a future update.</p>
-<p>If you use this method, most of the following Guide can be ignored.</p>
-</div></blockquote>
-</div>
-<div class="section" id="basic-url">
-<h2>Basic URL<a class="headerlink" href="#basic-url" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>The basic url where Livecli will handle the playback looks like this.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https://www.youtube.com/user/france24
+<p>LiveProxy can create this URL automatically.</p>
+<p>Create a new file with your Streamlink commands.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTM3U</span>
+<span class="c1">#EXTINF:-1,Arte FR</span>
+<span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">arte</span><span class="o">.</span><span class="n">tv</span><span class="o">/</span><span class="n">fr</span><span class="o">/</span><span class="n">direct</span><span class="o">/</span> <span class="mi">720</span><span class="n">p</span><span class="p">,</span><span class="mi">720</span><span class="n">p_alt</span><span class="p">,</span><span class="n">best</span>
+<span class="c1">#EXTINF:-1,France24</span>
+<span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">youtube</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">france24</span> <span class="n">best</span>
+<span class="c1">#EXTINF:-1 tvg-id=&quot;EuroNews&quot; tvg-name=&quot;EuroNews&quot;,Euronews</span>
+<span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">euronews</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">live</span> <span class="n">best</span>
 </pre></div>
 </div>
-</div></blockquote>
-</div>
-<div class="section" id="url-encoded">
-<h2>URL encoded<a class="headerlink" href="#url-encoded" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>The above solution will work for the most websites, <br />
-but URLs with special characters such as <code class="docutils literal notranslate"><span class="pre">?</span></code> or <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> might not work.</p>
-<p>For this case every parameter should be URL encoded, <br />
-the website <a class="reference external" href="https://www.urlencoder.org/">urlencoder.org</a> can be used for this.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%3A%2F%2Fexample.com%2Fexample
+<p>For this example the filename is <cite>example.m3u</cite>,
+create a valid URL for LiveProxy.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">liveproxy</span> <span class="o">--</span><span class="n">file</span> <span class="n">example</span><span class="o">.</span><span class="n">m3u</span>
 </pre></div>
 </div>
-</div></blockquote>
-</div>
-<div class="section" id="quality">
-<h2>Quality<a class="headerlink" href="#quality" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>By default LiveProxy will open the best quality, <br />
-if you want a different quality you can use the parameter <code class="docutils literal notranslate"><span class="pre">q</span></code> <br />
-with every new parameter, you must add an <code class="docutils literal notranslate"><span class="pre">&amp;</span></code></p>
-<p>For this example we will have the parameter <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL&amp;q=720p
+<p>It will create a new file <cite>example.m3u.new</cite> with valid URLs,
+only lines with <cite>streamlink</cite> at the start will be changed.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTM3U</span>
+<span class="c1">#EXTINF:-1,Arte FR</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5hcnRlLnR2L2ZyL2RpcmVjdC8gNzIwcCw3MjBwX2FsdCxiZXN0</span><span class="o">/</span>
+<span class="c1">#EXTINF:-1,France24</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
+<span class="c1">#EXTINF:-1 tvg-id=&quot;EuroNews&quot; tvg-name=&quot;EuroNews&quot;,Euronews</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0</span><span class="o">/</span>
 </pre></div>
-</div>
-</div></blockquote>
-</div>
-<div class="section" id="options">
-<h2>Options<a class="headerlink" href="#options" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>The <strong>/play/</strong> url can almoste handle every Streamlink command.</p>
-<p>Example <code class="docutils literal notranslate"><span class="pre">--http-header</span> <span class="pre">&quot;X-Forwarded-For=127.0.0.1&quot;</span></code> <br />
-will be <code class="docutils literal notranslate"><span class="pre">http-header=X-Forwarded-For%3D127.0.0.1</span></code></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL&amp;http-header=X-Forwarded-For%3D127.0.0.1
-</pre></div>
-</div>
-<div class="admonition attention">
-<p class="first admonition-title">Attention</p>
-<p class="last">Don’t use Usernames and Passwords in the URL, use the configuration file.</p>
 </div>
 </div></blockquote>
 </div>
@@ -303,35 +275,6 @@ will be <code class="docutils literal notranslate"><span class="pre">http-header
 </div>
 </div></blockquote>
 </div>
-<div class="section" id="redirect">
-<h2>Redirect<a class="headerlink" href="#redirect" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>There is also a different version which only redirects the streaming url, <br />
-only the basic parameter will work for this such as <code class="docutils literal notranslate"><span class="pre">url</span></code> and <code class="docutils literal notranslate"><span class="pre">q</span></code></p>
-<p>LiveProxy is only used to get the url, your Player will handle the playback.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/301/?url=URL
-</pre></div>
-</div>
-</div></blockquote>
-</div>
-<div class="section" id="userbouquet">
-<h2>Userbouquet<a class="headerlink" href="#userbouquet" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><div class="admonition attention">
-<p class="first admonition-title">Attention</p>
-<p class="last">Because this is used for the Userbouquet <strong>:</strong> is not allowed in the URL, <br />
-you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
-</div>
-<p><strong>Before</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=URL
-</pre></div>
-</div>
-<p><strong>After</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http%3a//127.0.0.1%3a53422/play/?url=URL
-</pre></div>
-</div>
-</div></blockquote>
-</div>
 <div class="section" id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="id1">
@@ -339,11 +282,11 @@ you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
 <blockquote>
 <div><p>Here are some finished working examples.</p>
 <p><strong>Euronews</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0</span><span class="o">/</span>
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://127.0.0.1:53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -352,19 +295,19 @@ you will have to replace <strong>:</strong> with <strong>%3a</strong></p>
 <h3>M3U<a class="headerlink" href="#m3u" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p><strong>Euronews</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;EURONEWS&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,Euronews
-http://127.0.0.1:53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTINF:-1 tvg-id=&quot;EURONEWS&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,Euronews</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0</span><span class="o">/</span>
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#EXTINF:-1 tvg-id=&quot;France24&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,France24
-http://127.0.0.1:53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTINF:-1 tvg-id=&quot;France24&quot; group-title=&quot;English;News&quot; tvg-logo=&quot;&quot;,France24</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
 </pre></div>
 </div>
 </div></blockquote>
 </div>
-<div class="section" id="id2">
-<h3>Userbouquet<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="userbouquet">
+<h3>Userbouquet<a class="headerlink" href="#userbouquet" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>If you use the webinterface, you can just copy your finished URL there. <br />
 But if you use a text editor, you will have to create a valid Userbouquet.</p>
@@ -383,12 +326,12 @@ But if you use a text editor, you will have to create a valid Userbouquet.</p>
 <p class="last">But I only tested it with <strong>4097</strong></p>
 </div>
 <p><strong>Euronews</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/play/?url=https%253A%252F%252Fwww.euronews.com%252Flive:Euronews</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/base64/c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0/:Euronews</span>
 <span class="c1">#DESCRIPTION Euronews</span>
 </pre></div>
 </div>
 <p><strong>France24</strong></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/play/?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2Ffrance24:France24</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SERVICE 4097:0:1:0:0:0:0:0:0:0:http%3a//127.0.0.1%3a53422/base64/c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q=/:France24</span>
 <span class="c1">#DESCRIPTION France24</span>
 </pre></div>
 </div>
@@ -428,7 +371,7 @@ But if you use a text editor, you will have to create a valid Userbouquet.</p>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'./',
-            VERSION:'0.0.4.dev1',
+            VERSION:'0.0.4.dev2',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
