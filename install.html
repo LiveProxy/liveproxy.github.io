@@ -254,7 +254,7 @@ manager, or by checking out the latest code with
 <tr class="row-even"><td colspan="2"><p><strong>Automatically installed by the setup script</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference external" href="https://pypi.org/project/streamlink/">python-streamlink</a></p></td>
-<td><p>At least version <strong>1.1.1</strong>.</p></td>
+<td><p>At least version <strong>1.2.0</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -285,30 +285,19 @@ and create a <em>dummy</em> <strong>script.module.pycryptodome</strong> Addon.</
 <blockquote>
 <div><p>The E2 version will run the command <code class="docutils literal notranslate"><span class="pre">liveproxy</span> <span class="pre">--host</span> <span class="pre">0.0.0.0</span></code> <br />
 which can be used for local testing without the receiver.</p>
-<p>The source and build files can be found at <a class="reference external" href="https://github.com/back-to/ipk">https://github.com/back-to/ipk</a></p>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>This is only tested with a <strong>Vu+ Duo2</strong> <br />
-which is an E2 receiver with <em>init.d</em> and <em>python2.7</em></p>
-</div>
+<p>The build files can be found at <a class="reference external" href="https://github.com/back-to/ipk">https://github.com/back-to/ipk</a></p>
 </div></blockquote>
 <div class="section" id="opkg-files">
 <h3>opkg files<a class="headerlink" href="#opkg-files" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>At the begin you will install the packages from <code class="docutils literal notranslate"><span class="pre">opkg</span></code></p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>opkg install python-futures
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>opkg install python-pkgutil
+opkg install python-futures
 opkg install python-singledispatch
 opkg install python-six
 opkg install python-requests
+opkg install python-pycrypto
 </pre></div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p><strong>python-pycrypto</strong> was preinstalled on my test receiver,
-you might need to install it on your.
-<br /> <br />
-If this is not posible you can try
-<strong>python-pycryptodome</strong> or <strong>python-pycryptodomex</strong></p>
 </div>
 </div></blockquote>
 </div>
@@ -324,13 +313,13 @@ and <code class="docutils literal notranslate"><span class="pre">cd</span> <span
 <ul class="simple">
 <li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-backports.shutil-get-terminal-size_1.0.0_all.ipk</p></li>
 <li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-backports.shutil-which_3.5.1_all.ipk</p></li>
-<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso3166_0.8_all.ipk</p></li>
+<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso3166_1.0_all.ipk</p></li>
 <li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-iso639_0.4.5_all.ipk</p></li>
 <li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-isodate_0.6.0_all.ipk</p></li>
-<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-socks_1.6.8_all.ipk</p></li>
+<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-socks_1.7.1_all.ipk</p></li>
 <li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-websocket_0.47.0_all.ipk</p></li>
-<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-streamlink_0.14.2.138_all.ipk</p></li>
-<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-liveproxy_0.1.1_all.ipk</p></li>
+<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-streamlink_1.2.0.50_all.ipk</p></li>
+<li><p>https://raw.githubusercontent.com/back-to/ipk/master/build/python-liveproxy_0.3.0_all.ipk</p></li>
 </ul>
 </div></blockquote>
 </div>
@@ -349,7 +338,7 @@ you will have to use <code class="docutils literal notranslate"><span class="pre
 <em>opkg install /tmp/py</em> <br />
 <strong>TAB</strong> will be <em>opkg install /tmp/python-</em> <br /> <br />
 <em>opkg install /tmp/python-so</em> <br />
-<strong>TAB</strong> will be <em>opkg install /tmp/python-socks_1.6.8_all.ipk</em></p>
+<strong>TAB</strong> will be <em>opkg install /tmp/python-socks_1.7.1_all.ipk</em></p>
 </div>
 </div></blockquote>
 </div>
