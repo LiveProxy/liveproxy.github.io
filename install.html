@@ -270,14 +270,6 @@ manager, or by checking out the latest code with
 <p class="admonition-title">Note</p>
 <p>A Kodi restart is recommended.</p>
 </div>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p><strong>script.module.pycryptodome</strong> is required for LiveProxy, <br />
-but it’s only prepacked on <strong>Kodi Leia</strong>.</p>
-<p>If you want to use this Addon on <strong>Krypton</strong>, <br />
-you will have to install <strong>pycryptodome</strong> on your system <br />
-and create a <em>dummy</em> <strong>script.module.pycryptodome</strong> Addon.</p>
-</div>
 </div></blockquote>
 </div>
 <div class="section" id="enigma2">
@@ -375,7 +367,7 @@ you will have to use <code class="docutils literal notranslate"><span class="pre
 </div></blockquote>
 <p><strong>start the server</strong></p>
 <blockquote>
-<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">liveproxy</span><span class="o">-</span><span class="n">server</span> <span class="n">defaults</span>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="n">liveproxy</span><span class="o">-</span><span class="n">server</span> <span class="n">defaults</span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -395,7 +387,7 @@ you will have to use <code class="docutils literal notranslate"><span class="pre
 </div>
 <p>To solve this, you need to install <strong>Network Time Protocol (NTP)</strong> service</p>
 <p>After the install you might need to run</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="o">/</span><span class="n">etc</span><span class="o">/</span><span class="n">init</span><span class="o">.</span><span class="n">d</span><span class="o">/</span><span class="n">ntpupdate</span><span class="o">.</span><span class="n">sh</span> <span class="n">defaults</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">update</span><span class="o">-</span><span class="n">rc</span><span class="o">.</span><span class="n">d</span> <span class="n">ntpupdate</span><span class="o">.</span><span class="n">sh</span> <span class="n">defaults</span>
 </pre></div>
 </div>
 </div></blockquote>
