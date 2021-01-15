@@ -1,7 +1,5 @@
 ./_sources/index.rst.txt
 ./_sources/install.rst.txt
-./_sources/known_issues.rst.txt
-./_sources/plugins.rst.txt
 ./_sources/url.rst.txt
 ./_static/basic.css
 ./_static/css/badge_only.css
@@ -42,9 +40,7 @@
 ./genindex.html
 ./index.html
 ./install.html
-./known_issues.html
 ./objects.inv
-./plugins.html
 ./search.html
 ./searchindex.js
 ./url.html

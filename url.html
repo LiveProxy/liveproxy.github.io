@@ -40,7 +40,6 @@
     
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Sideloading plugins" href="plugins.html" />
     <link rel="prev" title="Installation" href="install.html" /> 
 </head>
 
@@ -92,21 +91,7 @@
             
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="install.html#source-code">Source code</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="install.html#dependencies">Dependencies</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="install.html#kodi">Kodi</a></li>
-<li class="toctree-l2"><a class="reference internal" href="install.html#enigma2">Enigma2</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="install.html#opkg-files">opkg files</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#download-files">download files</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#id1">install</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#after-install">after install</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#service">service</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#known-issues">Known issues</a></li>
-<li class="toctree-l3"><a class="reference internal" href="install.html#systemtimewarning">SystemTimeWarning</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#source-code">Source code</a></li>
 </ul>
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">URL Guide</a><ul>
@@ -119,16 +104,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="plugins.html">Sideloading plugins</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="plugins.html#custom-plugins-kodi">custom plugins Kodi</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#logging-level">Logging Level</a></li>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#kodi-debug-spam">Kodi: DEBUG spam</a></li>
-<li class="toctree-l2"><a class="reference internal" href="known_issues.html#ffmpeg-and-rtmp">FFmpeg and RTMP</a></li>
 </ul>
 </li>
 </ul>
@@ -203,11 +178,6 @@
 <p>LiveProxy is a local Proxyserver between Streamlink and an URL.</p>
 <p>After installing and running LiveProxy you will be able to access Streamlink
 from any device in your local network via an URL.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>LiveProxy is not supposed to run on remote servers,
-it is only meant for a local network.</p>
-</div>
 <p>Now to get into actually using LiveProxy, let’s say you want to watch the
 stream located on <a class="reference external" href="https://www.youtube.com/user/france24">https://www.youtube.com/user/france24</a>, you start off by
 starting LiveProxy in your terminal.</p>
@@ -238,8 +208,6 @@ after they got base64 encoded.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
 </pre></div>
 </div>
-<p>Redirect with <cite>–player-passthrough</cite> is currently not supported,
-it will be added in a future update.</p>
 <p>LiveProxy can create this URL automatically.</p>
 <p>Create a new file with your Streamlink commands.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTM3U</span>
