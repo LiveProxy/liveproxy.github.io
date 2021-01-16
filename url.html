@@ -96,12 +96,18 @@
 </li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">URL Guide</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#tutorial">Tutorial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#base64">Base64</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#configuration-file">Configuration file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#base64">Base64</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#streamlink">Streamlink</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#youtube-dl">Youtube-DL</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#liveproxy-command">LiveProxy-Command</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#examples">Examples</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">URL</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#m3u">M3U</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#m3u">M3U</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#userbouquet">Userbouquet</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -197,19 +203,35 @@ starting LiveProxy in your terminal.</p>
 </div>
 <div class="section" id="base64">
 <h2>Base64<a class="headerlink" href="#base64" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="streamlink">
+<h3>Streamlink<a class="headerlink" href="#streamlink" title="Permalink to this headline">¶</a></h3>
 <blockquote>
-<div><p>The LiveProxy URL build was simplified,
-the <cite>STREAMLINK-COMMANDS</cite> part must be replaced with your Streamlink commands
-after they got base64 encoded.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">STREAMLINK</span><span class="o">-</span><span class="n">COMMANDS</span><span class="o">/</span>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">STREAMLINK</span><span class="o">-</span><span class="n">COMMANDS</span><span class="o">/</span>
 </pre></div>
 </div>
 <p>Example for <cite>streamlink https://www.youtube.com/user/france24 best</cite></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
 </pre></div>
 </div>
-<p>LiveProxy can create this URL automatically.</p>
-<p>Create a new file with your Streamlink commands.</p>
+</div></blockquote>
+</div>
+<div class="section" id="youtube-dl">
+<h3>Youtube-DL<a class="headerlink" href="#youtube-dl" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">YOUTUBE</span><span class="o">-</span><span class="n">DL</span><span class="o">-</span><span class="n">COMMANDS</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>Example for <cite>youtube-dl https://www.youtube.com/user/france24/live</cite></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">eW91dHViZS1kbCBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0L2xpdmU</span><span class="o">=/</span>
+</pre></div>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="liveproxy-command">
+<h3>LiveProxy-Command<a class="headerlink" href="#liveproxy-command" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>LiveProxy can create this URL automatically.</p>
+<p>Create a new file with your commands.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTM3U</span>
 <span class="c1">#EXTINF:-1,Arte FR</span>
 <span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">arte</span><span class="o">.</span><span class="n">tv</span><span class="o">/</span><span class="n">fr</span><span class="o">/</span><span class="n">direct</span><span class="o">/</span> <span class="mi">720</span><span class="n">p</span><span class="p">,</span><span class="mi">720</span><span class="n">p_alt</span><span class="p">,</span><span class="n">best</span>
@@ -217,15 +239,16 @@ after they got base64 encoded.</p>
 <span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">youtube</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">france24</span> <span class="n">best</span>
 <span class="c1">#EXTINF:-1 tvg-id=&quot;EuroNews&quot; tvg-name=&quot;EuroNews&quot;,Euronews</span>
 <span class="n">streamlink</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">euronews</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">live</span> <span class="n">best</span>
+<span class="c1">#EXTINF:-1,France24</span>
+<span class="n">youtube</span><span class="o">-</span><span class="n">dl</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">www</span><span class="o">.</span><span class="n">youtube</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">france24</span><span class="o">/</span><span class="n">live</span>
 </pre></div>
 </div>
-<p>For this example the filename is <cite>example.m3u</cite>,
-create a valid URL for LiveProxy.</p>
+<p>For this example the filename is <cite>example.m3u</cite></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">liveproxy</span> <span class="o">--</span><span class="n">file</span> <span class="n">example</span><span class="o">.</span><span class="n">m3u</span>
 </pre></div>
 </div>
-<p>It will create a new file <cite>example.m3u.new</cite> with valid URLs,
-only lines with <cite>streamlink</cite> at the start will be changed.</p>
+<p>It will create a new file <cite>example.m3u.new</cite> with valid URLs,|br|
+only lines with <cite>streamlink</cite>, <cite>youtube-dl</cite> or <cite>youtube_dl</cite> at the start will be changed.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#EXTM3U</span>
 <span class="c1">#EXTINF:-1,Arte FR</span>
 <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5hcnRlLnR2L2ZyL2RpcmVjdC8gNzIwcCw3MjBwX2FsdCxiZXN0</span><span class="o">/</span>
@@ -233,29 +256,17 @@ only lines with <cite>streamlink</cite> at the start will be changed.</p>
 <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
 <span class="c1">#EXTINF:-1 tvg-id=&quot;EuroNews&quot; tvg-name=&quot;EuroNews&quot;,Euronews</span>
 <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0</span><span class="o">/</span>
+<span class="c1">#EXTINF:-1,France24</span>
+<span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">eW91dHViZS1kbCBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0L2xpdmU</span><span class="o">=/</span>
 </pre></div>
 </div>
-<p>You can also use <code class="docutils literal notranslate"><span class="pre">--file-output</span></code> for a specified new file,
+<p>You can also use <code class="docutils literal notranslate"><span class="pre">--file-output</span></code> for a specified new file,|br|
 but be careful don’t overwrite any important files.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">liveproxy</span> <span class="o">--</span><span class="n">file</span> <span class="n">example</span><span class="o">.</span><span class="n">m3u</span> <span class="o">--</span><span class="n">file</span><span class="o">-</span><span class="n">output</span> <span class="n">my_file</span><span class="o">.</span><span class="n">m3u</span>
 </pre></div>
 </div>
 </div></blockquote>
 </div>
-<div class="section" id="configuration-file">
-<h2>Configuration file<a class="headerlink" href="#configuration-file" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div><p>LiveProxy is fully compatible with the way Streamlink uses configuration files</p>
-<p>For more Details see <a class="reference external" href="https://streamlink.github.io/cli.html#configuration-file">Streamlink-configuration-file</a></p>
-<p>The following path can be used for Kodi</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">special</span><span class="p">:</span><span class="o">//</span><span class="n">profile</span><span class="o">/</span><span class="n">addon_data</span><span class="o">/</span><span class="n">service</span><span class="o">.</span><span class="n">liveproxy</span><span class="o">/</span><span class="n">config</span>
-</pre></div>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>strongly recommended for Usernames and Passwords</p>
-</div>
-</div></blockquote>
 </div>
 <div class="section" id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
@@ -263,12 +274,16 @@ but be careful don’t overwrite any important files.</p>
 <h3>URL<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Here are some finished working examples.</p>
-<p><strong>Euronews</strong></p>
+<p><strong>Euronews</strong> (Streamlink)</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy5ldXJvbmV3cy5jb20vbGl2ZSBiZXN0</span><span class="o">/</span>
 </pre></div>
 </div>
-<p><strong>France24</strong></p>
+<p><strong>France24</strong> (Streamlink)</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">c3RyZWFtbGluayBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0IGJlc3Q</span><span class="o">=/</span>
+</pre></div>
+</div>
+<p><strong>France24</strong> (Youtube-DL)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span><span class="p">:</span><span class="mi">53422</span><span class="o">/</span><span class="n">base64</span><span class="o">/</span><span class="n">eW91dHViZS1kbCBodHRwczovL3d3dy55b3V0dWJlLmNvbS91c2VyL2ZyYW5jZTI0L2xpdmU</span><span class="o">=/</span>
 </pre></div>
 </div>
 </div></blockquote>
@@ -287,9 +302,8 @@ but be careful don’t overwrite any important files.</p>
 </pre></div>
 </div>
 </div></blockquote>
-</div>
 <div class="section" id="userbouquet">
-<h3>Userbouquet<a class="headerlink" href="#userbouquet" title="Permalink to this headline">¶</a></h3>
+<h4>Userbouquet<a class="headerlink" href="#userbouquet" title="Permalink to this headline">¶</a></h4>
 <blockquote>
 <div><p>If you use the webinterface, you can just copy your finished URL there. <br />
 But if you use a text editor, you will have to create a valid Userbouquet.</p>
@@ -318,6 +332,7 @@ But if you use a text editor, you will have to create a valid Userbouquet.</p>
 </pre></div>
 </div>
 </div></blockquote>
+</div>
 </div>
 </div>
 </div>
